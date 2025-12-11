@@ -92,7 +92,7 @@ def compute_map(ranks, gnd, cfg, kappas=[]):
 
         k = 0;
         ij = 0;
-        if len(junk) and cfg['dataset'] != "IQM":
+        if len(junk):
             # decrease positions of positives based on the number of
             # junk images appearing before them
             ip = 0

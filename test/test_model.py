@@ -47,11 +47,7 @@ def test_model(model, device, data_dir, dataset_list, scale_list, custom, update
             process_txt_files(data_dir, dataset)
         elif not dataset == "":
             query_paths = [os.path.join(data_dir, dataset, "queries", i) for i in os.listdir(os.path.join(data_dir, dataset, "queries"))]
-
-            if dataset in ["IQM"]:
-                create_groundtruth_csv(query_paths, data_dir, dataset)
-            else:
-                create_groundtruth(query_paths, data_dir, dataset)
+            create_groundtruth(query_paths, data_dir, dataset)
             file_path = os.path.join(data_dir, dataset)
             gnd_fn = f'gnd_{dataset}.json'
         else:
@@ -96,7 +92,7 @@ def test_model(model, device, data_dir, dataset_list, scale_list, custom, update
         ranks = ranks.data.cpu().numpy()
 
         if evaluate:
-            #print_top_n(cfg, ranks, 10, file_path)
+            print_top_n(cfg, ranks, 10, file_path)
 
             # revisited evaluation
             ks = [10, 25, 100]

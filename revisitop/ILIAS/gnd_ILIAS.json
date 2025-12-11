@@ -1,0 +1,22 @@
+{
+    "imlist": [
+        "cheese.jpg"
+    ],
+    "qimlist": [
+        "00a0b94ec65913cad5ab56924c6a.jpg"
+    ],
+    "gnd": [
+        {
+            "query": "00a0b94ec65913cad5ab56924c6a.jpg",
+            "bbx": [
+                0,
+                0,
+                500,
+                333
+            ],
+            "ok": [],
+            "good": [],
+            "junk": []
+        }
+    ]
+}

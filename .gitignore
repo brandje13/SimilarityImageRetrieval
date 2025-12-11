@@ -10,3 +10,12 @@ log.txt
 .idea/misc.xml
 .idea/SuperGlobal.iml
 *.pt
+*.zip
+/revisitop/ILIAS/queries/ilias_core
+/revisitop/revisitop/roxford5k
+/revisitop/revisitop/IQM
+/revisitop/IQM
+/revisitop/revisitop/catndogs
+/revisitop/revisitop/smartTrim
+/revisitop/IQM
+/revisitop/IQM/Annotation

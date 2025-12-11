@@ -75,12 +75,8 @@ def test_revisitop(cfg, ks, ranks):
     gnd_t = []
     for i in range(len(gnd)):
         g = {}
-        if cfg['dataset'] == "IQM":
-            g['ok'] = np.concatenate([gnd[i]['good']])
-            g['junk'] = np.concatenate([gnd[i]['junk'], gnd[i]['ok']])
-        else:
-            g['ok'] = np.concatenate([gnd[i]['ok']])
-            g['junk'] = np.concatenate([gnd[i]['junk'], gnd[i]['good']])
+        g['ok'] = np.concatenate([gnd[i]['ok']])
+        g['junk'] = np.concatenate([gnd[i]['junk'], gnd[i]['good']])
         gnd_t.append(g)
     mapH, apsH, mprH, prsH = compute_map(ranks_H, gnd_t, cfg, ks)
 
@@ -223,7 +219,7 @@ def create_groundtruth(query_paths, dir_path, dataset):
             # Add the file to the list
             cfg['imlist'].append(img)
 
-    # Iterate over all text files in the directory
+    # Iterate over all image files in the directory
     for filename in sorted(query_paths):
         # Determine the category based on the filename
         # parts = filename.split('_')
@@ -325,7 +321,7 @@ def create_groundtruth_csv(query_paths, dir_path, dataset):
     with open(os.path.join(dir_path, dataset, f'gnd_{dataset}.json'), 'w') as json_file:
         json.dump(cfg, json_file, indent=4)
 
-
+# Create groundtruth based on provided txt files
 def process_txt_files(dir_path, dataset):
     data = {'imlist': [], 'qimlist': [], 'gnd': []}
     query_info = {}

@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3dcb7a-ed7d-47df-90f3-b54f3599d71a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model/ViT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/CVNet_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/CVNet_tester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groundtruth_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/groundtruth_creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/CVNet_Rerank_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/CVNet_Rerank_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SG.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SG.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/coarse_retrieval/rgem.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/coarse_retrieval/rgem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/gnd_roxford5k.json" beforeDir="false" afterPath="$PROJECT_DIR$/revisitop/roxford5k/gnd_roxford5k.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/gnd_roxford5k.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/revisitop/roxford5k/gnd_roxford5k.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/Annotation/Data preparation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/revisitop/IQM/Annotation/Data preparation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config_gnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/config_gnd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/evaluate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Program Files (x86)/Steam/steamapps/common/Project V for Victory" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +48,7 @@
       <recent name="C:\Users\20163926\Documents\TUe - Master - Year 2\Thesis\SuperGlobal\SuperGlobal\revisitop" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.Test">
+  <component name="RunManager" selected="Python.test (ILIAS)">
     <configuration name="groundtruth_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SuperGlobal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,6 +63,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/groundtruth_creator.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (ILIAS)" type="PythonConfigurationType" factoryName="Python">
+      <module name="SuperGlobal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\revisitop TEST.DATASET 'ILIAS_Test' TEST.EVALUATE True SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -142,6 +159,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.test (ILIAS)" />
       <item itemvalue="Python.groundtruth_creator" />
       <item itemvalue="Shell Script.Test" />
       <item itemvalue="Shell Script.Test (Custom)" />
@@ -319,7 +337,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/modules/coarse_retrieval/rgem.py</url>
-          <line>20</line>
+          <line>32</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -336,11 +354,6 @@
           <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
           <line>42</line>
           <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_utils.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/CVNet_Rerank_model.py</url>
@@ -428,9 +441,9 @@
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_utils.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="114" />
+          <url>file://$PROJECT_DIR$/test/test_model.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
