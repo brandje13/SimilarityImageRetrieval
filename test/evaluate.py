@@ -20,8 +20,8 @@ def compute_ap(ranks, nres):
     """
 
     # number of images ranked by the system
-    #nimgranks = len(ranks)
-    nimgranks = nres
+    nimgranks = len(ranks)
+    #nimgranks = nres
 
     # accumulate trapezoids in PR-plot
     ap = 0
@@ -110,10 +110,11 @@ def compute_map(ranks, gnd, cfg, kappas=[]):
 
         # compute precision @ k
         pos += 1  # get it to 1-based
-        for j in np.arange(len(kappas)):
-            kq = min(max(pos), kappas[j])
-            prs[i, j] = (pos <= kq).sum() / kq
-        pr = pr + prs[i, :]
+        if len(pos) > 0:
+            for j in np.arange(len(kappas)):
+                kq = min(max(pos), kappas[j])
+                prs[i, j] = (pos <= kq).sum() / kq
+            pr = pr + prs[i, :]
 
     map = map / (nq - nempty)
     pr = pr / (nq - nempty)

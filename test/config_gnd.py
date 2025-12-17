@@ -5,10 +5,8 @@ import json
 
 DATASETS = ['roxford5k', 'rparis6k', 'revisitop1m', "ILIAS", "ILIAS_Test"]
 
+
 def config_gnd(dataset, dir_main, custom):
-
-    #dataset = dataset.lower()
-
     if dataset not in DATASETS:    
         raise ValueError('Unknown dataset: {}!'.format(dataset))
 
@@ -47,11 +45,14 @@ def config_gnd(dataset, dir_main, custom):
 
     return cfg
 
+
 def config_imname(cfg, i):
     return os.path.join(cfg['dir_images'], cfg['imlist'][i])
 
+
 def config_qimname(cfg, i):
     return os.path.join(cfg['dir_images'], cfg['qimlist'][i])
+
 
 def read_imlist(imlist_fn):
     with open(imlist_fn, 'r') as file:
