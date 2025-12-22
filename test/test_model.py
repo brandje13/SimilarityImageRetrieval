@@ -31,7 +31,6 @@ def test_model(model, device, data_dir, dataset_list, scale_list, custom, update
 
     model.load_state_dict(state_dict)
 
-
     for dataset in [dataset_list]:
         text = '>> {}: Global Retrieval for scale {} with CVNet-Global'.format(dataset, str(scale_list))
         print(text)
@@ -109,7 +108,8 @@ def test_model(model, device, data_dir, dataset_list, scale_list, custom, update
         ranks = ranks.data.cpu().numpy()
 
         if evaluate:
-            #print_top_n(cfg, ranks, 10, file_path)
+            # TODO: Move to main call
+            print_top_n(cfg, ranks, 10, file_path)
 
             # revisited evaluation
             ks = [10, 25, 100]
@@ -122,4 +122,6 @@ def test_model(model, device, data_dir, dataset_list, scale_list, custom, update
                 logger.info('Retrieval results {}: mAP E: {}, M: {}, H: {}'.format(dataset, np.around(mapE * 100, decimals=2),
                                                                                 np.around(mapM * 100, decimals=2),
                                                                                 np.around(mapH * 100, decimals=2)))
+
+    return ranks
 

@@ -175,6 +175,7 @@ def rerank_ranks_revisitop(cfg, topk, ranks, sim_global, sim_local_dict, mix_rat
     return ranks_corr_E, ranks_corr_M, ranks_corr_H
 
 
+# TODO: Move to separate file
 def print_top_n(cfg, ranks, n, file_path):
     ranks = np.transpose(ranks)
     images = []
@@ -200,6 +201,7 @@ def print_top_n(cfg, ranks, n, file_path):
     img.show()
 
 
+# TODO: Move to separate file
 def create_groundtruth(query_paths, dir_path, dataset):
     cfg = {'imlist': [], 'qimlist': [], 'gnd': []}
     query_info = {}

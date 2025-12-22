@@ -10,7 +10,23 @@ def main():
     config.load_cfg_fom_args("test a CVNet model.")
     cfg.NUM_GPUS = 1
     cfg.freeze()
-    CVNet_tester.__main__()
+
+    # TODO: Move groundtruth here and pass to main
+    gnd = []
+
+    SG_ranks = CVNet_tester.__main__(gnd)
+
+    # TODO: retrieve top imgs set
+    # TODO: print_top_k
+
+    # TODO: SAM
+
+    # TODO: retrieve top imgs set
+    # TODO: print_top_k
+
+    # TODO: Union or Intersection
+
+    # TODO: Show final set
 
 
 if __name__ == "__main__":
