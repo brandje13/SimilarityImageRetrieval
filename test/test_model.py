@@ -8,7 +8,7 @@ import faiss
 import torch
 import numpy as np
 
-from test.test_utils import extract_feature, test_revisitop, print_top_n, create_groundtruth, \
+from test.test_utils import extract_feature, test_revisitop, retrieve_and_print_top_n, create_groundtruth, \
     create_groundtruth_from_txt
 from test.dataset import DataSet
 
@@ -80,9 +80,6 @@ def test_model(model, device, cfg, gnd, data_dir, dataset, scale_list, custom, u
     ranks = ranks.data.cpu().numpy()
 
     if evaluate:
-        # TODO: Move to main call
-        print_top_n(cfg, ranks, 10, gnd['path'])
-
         # revisited evaluation
         ks = [10, 25, 100]
         if not custom:

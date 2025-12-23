@@ -176,29 +176,37 @@ def rerank_ranks_revisitop(cfg, topk, ranks, sim_global, sim_local_dict, mix_rat
 
 
 # TODO: Move to separate file
-def print_top_n(cfg, ranks, n, file_path):
+def retrieve_and_print_top_n(cfg, ranks, n, retrieve_only=True):
     ranks = np.transpose(ranks)
     images = []
-
+    top_n = {}
+    file_path = cfg['path']
     resize_transform = transforms.Resize((224, 224))
 
     for i in range(len(ranks)):
         query = cfg['qimlist'][i]
-        image = read_image(os.path.join(file_path, "queries", query))
-        image = resize_transform(image)
-        images.append(image)
-
-        for j in range(n):
-            next_best = cfg['imlist'][ranks[i][j]]
-            image = read_image(os.path.join(file_path, next_best))
+        top_n[query] = {'query': str, 'top_n': []}
+        top_n[query]['query'] = query
+        if not retrieve_only:
+            image = read_image(os.path.join(file_path, "queries", query))
             image = resize_transform(image)
             images.append(image)
 
-    images_tensor = torch.stack(images)
+        for j in range(n):
+            next_best = cfg['imlist'][ranks[i][j]]
+            top_n[query]['top_n'].append(os.path.join(file_path, next_best))
+            if not retrieve_only:
+                image = read_image(os.path.join(file_path, next_best))
+                image = resize_transform(image)
+                images.append(image)
 
-    grid = make_grid(images_tensor, nrow=n + 1)
-    img = torchvision.transforms.ToPILImage()(grid)
-    img.show()
+    if not retrieve_only:
+        images_tensor = torch.stack(images)
+        grid = make_grid(images_tensor, nrow=n + 1)
+        img = torchvision.transforms.ToPILImage()(grid)
+        img.show()
+
+    return top_n
 
 
 # TODO: Move to separate file

@@ -7,7 +7,7 @@ from tkfilebrowser import askopenfilenames, askopendirname
 
 from config import cfg as c
 from test.config_gnd import config_gnd
-from test.test_utils import create_groundtruth_from_txt, create_groundtruth
+from test.test_utils import create_groundtruth_from_txt, create_groundtruth, retrieve_and_print_top_n
 
 
 def main():
@@ -34,14 +34,11 @@ def main():
         assert c.TEST.DATASET
 
     SG_ranks = CVNet_tester.__main__(gnd, cfg)
-
-    # TODO: retrieve top imgs set
-    # TODO: print_top_k
+    SG_top = retrieve_and_print_top_n(cfg, SG_ranks, 10)
 
     # TODO: SAM
 
-    # TODO: retrieve top imgs set
-    # TODO: print_top_k
+    # TODO: retrieve_and_print_top_k
 
     # TODO: Union or Intersection
 

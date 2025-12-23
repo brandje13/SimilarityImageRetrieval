@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee3dcb7a-ed7d-47df-90f3-b54f3599d71a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/CVNet_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/CVNet_tester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/CVNet_Rerank_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/CVNet_Rerank_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/revisitop/ILIAS/gnd_ILIAS.json" beforeDir="false" afterPath="$PROJECT_DIR$/revisitop/ILIAS/gnd_ILIAS.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_utils.py" afterDir="false" />
     </list>
@@ -217,6 +212,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
