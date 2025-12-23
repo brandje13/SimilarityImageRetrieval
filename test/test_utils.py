@@ -203,8 +203,9 @@ def print_top_n(cfg, ranks, n, file_path):
 
 # TODO: Move to separate file
 def create_groundtruth(query_paths, dir_path, dataset):
-    cfg = {'imlist': [], 'qimlist': [], 'gnd': []}
+    data = {'imlist': [], 'qimlist': [], 'gnd': [], 'path': str}
     query_info = {}
+    data['path'] = os.path.join(dir_path, dataset)
 
     # Determine the category based on the filename
     # parts = filename.split('_')
@@ -221,7 +222,7 @@ def create_groundtruth(query_paths, dir_path, dataset):
         # Leave extentions to handle multiple data types
         if img.endswith(".jpg") or img.endswith(".png") or img.endswith(".jpeg"):
             # Add the file to the list
-            cfg['imlist'].append(img)
+            data['imlist'].append(img)
 
     if all(os.path.isdir(path) for path in query_paths) and dataset == "ILIAS":
         for path in query_paths:
@@ -250,7 +251,7 @@ def create_groundtruth(query_paths, dir_path, dataset):
 
                         query_info[query_file] = {'query': query_file, 'bbx': bbx,
                                                   'ok': [], 'good': [], 'junk': []}
-                        cfg['qimlist'].append(query_file)
+                        data['qimlist'].append(query_file)
 
             # Iterate through each file in the pos directory
             temp_path = os.path.join(path, "pos")
@@ -259,7 +260,7 @@ def create_groundtruth(query_paths, dir_path, dataset):
                 # Leave extentions to handle multiple data types
                 if file.endswith(".jpg") or file.endswith(".png") or file.endswith(".jpeg"):
                     pos_file = os.path.join("queries", path.split('\\')[-1], 'pos', file)
-                    cfg['imlist'].append(pos_file)
+                    data['imlist'].append(pos_file)
 
                     for img in temp_queries:
                         query_info[img]['ok'].append(pos_file)
@@ -279,7 +280,7 @@ def create_groundtruth(query_paths, dir_path, dataset):
                 query_info[query_name][category] = query_name
                 w, h = Image.open(filename).size
                 query_info[query_name]['bbx'] = [0, 0, w, h]
-                cfg['qimlist'].append(query_name)
+                data['qimlist'].append(query_name)
 
             # Populate data dictionary based on category
             if category in ['ok', 'good', 'junk']:
@@ -287,17 +288,18 @@ def create_groundtruth(query_paths, dir_path, dataset):
 
     # Populate 'gnd' based on query info
     for query_name, info in query_info.items():
-        cfg['gnd'].append(info)
+        data['gnd'].append(info)
 
     # Save the result as json
     with open(os.path.join(dir_path, dataset, f'gnd_{dataset}.json'), 'w') as json_file:
-        json.dump(cfg, json_file, indent=4)
+        json.dump(data, json_file, indent=4)
 
 
 # Create groundtruth based on provided txt files
 def create_groundtruth_from_txt(dir_path, dataset):
-    data = {'imlist': [], 'qimlist': [], 'gnd': []}
+    data = {'imlist': [], 'qimlist': [], 'gnd': [], 'path': str}
     query_info = {}
+    data['path'] = os.path.join(dir_path, dataset)
 
     # Iterate through each file in the directory
     for img in sorted(os.listdir(os.path.join(dir_path, dataset))):

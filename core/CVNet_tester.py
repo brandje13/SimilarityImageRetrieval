@@ -3,10 +3,10 @@ r""" Test code of Correlation Verification Network """
 
 import torch
 import core.checkpoint as checkpoint
-from config import cfg
 from model.CVNet_Rerank_model import CVNet_Rerank
 from test.test_model import test_model
 import logging
+from config import cfg as c
 
 logger = logging.getLogger(__name__)
 
@@ -25,28 +25,30 @@ def setup_model(device, encoder):
     """Sets up a model for training or testing and log the results."""
     # Build the model
     print("=> creating CVNet_Rerank model")
-    model = CVNet_Rerank(cfg.MODEL.DEPTH, cfg.MODEL.HEADS.REDUCTION_DIM, cfg.SupG.relup, encoder)
+    model = CVNet_Rerank(c.MODEL.DEPTH, c.MODEL.HEADS.REDUCTION_DIM, c.SupG.relup, encoder)
     print(model)
     model = model.cuda(device=device)
 
     return model
 
 
-def __main__(gnd):
+def __main__(gnd, cfg):
     """Test the model."""
-    if cfg.TEST.WEIGHTS == "":
+    if c.TEST.WEIGHTS == "":
         print("no test weights exist!!")
         ranks = []
     else:
         # Construct the model
         encoder = ["", ""]
-        device = cfg.MODEL.DEVICE
+        device = c.MODEL.DEVICE
         model = setup_model(device, encoder)
         # Load checkpoint
-        checkpoint.load_checkpoint(cfg.TEST.WEIGHTS, model)
+        checkpoint.load_checkpoint(c.TEST.WEIGHTS, model)
 
-        ranks = test_model(model, device, cfg.TEST.DATA_DIR, cfg.TEST.DATASET, cfg.TEST.SCALE_LIST, cfg.TEST.CUSTOM,
-                   cfg.TEST.UPDATE_DATA, cfg.TEST.UPDATE_QUERIES, cfg.SupG.rerank, cfg.SupG.gemp, cfg.SupG.rgem,
-                   cfg.SupG.sgem, cfg.SupG.onemeval, cfg.MODEL.DEPTH, cfg.TEST.EVALUATE, logger)
+        ranks = test_model(model, device, cfg, gnd, c.TEST.DATA_DIR, c.TEST.DATASET, c.TEST.SCALE_LIST, c.TEST.CUSTOM,
+                   c.TEST.UPDATE_DATA, c.TEST.UPDATE_QUERIES, c.SupG.rerank, c.SupG.gemp, c.SupG.rgem,
+                   c.SupG.sgem, c.SupG.onemeval, c.MODEL.DEPTH, c.TEST.EVALUATE, logger)
 
     return ranks
+
+

@@ -31,6 +31,7 @@ def _construct_loader(_DATA_DIR, dataset_name, fn, split, scale_list, batch_size
     )
     return loader
 
+
 def construct_loader(_DATA_DIR, dataset_name, fn, split, scale_list):
     """Test loader wrapper."""
     return _construct_loader(
