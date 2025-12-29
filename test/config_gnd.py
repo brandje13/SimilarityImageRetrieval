@@ -6,16 +6,13 @@ import json
 DATASETS = ['roxford5k', 'rparis6k', 'revisitop1m', "ILIAS", "ILIAS_Test"]
 
 
-def config_gnd(dataset, dir_main, custom):
+def config_gnd(dataset, dir_main, custom, gnd):
     if dataset not in DATASETS:    
         raise ValueError('Unknown dataset: {}!'.format(dataset))
 
     if not dataset == 'revisitop1m':
         # loading imlist, qimlist, and gnd, in cfg as a dict
-        if custom:
-            gnd_fname = os.path.join(dir_main, dataset, 'custom.json')
-        else:
-            gnd_fname = os.path.join(dir_main, dataset, f'gnd_{dataset}.json')
+        gnd_fname = os.path.join(dir_main, dataset, gnd)
 
         with open(gnd_fname, 'rb') as f:
             cfg = json.load(f)

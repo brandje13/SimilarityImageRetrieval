@@ -18,6 +18,8 @@ from .CVlearner import CVLearner
 class CVNet_Rerank(nn.Module):
     def __init__(self, RESNET_DEPTH, REDUCTION_DIM, relup, encoder):
         super(CVNet_Rerank, self).__init__()
+        self.model = "SuperGlobal"
+
         if encoder[0] == "resnet":
             self.encoder_q = torch.hub.load('pytorch/vision:v0.10.0', encoder[0] + encoder[1], pretrained=True)
         else:

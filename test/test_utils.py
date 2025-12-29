@@ -20,7 +20,7 @@ import json
 @torch.no_grad()
 def extract_feature(model, data_dir, dataset, gnd_fn, split, scale_list_fix, gemp, rgem, sgem, scale_list):
     with torch.no_grad():
-        test_loader = loader.construct_loader(data_dir, dataset, gnd_fn, split, scale_list_fix)
+        test_loader = loader.construct_loader(model.model, data_dir, dataset, gnd_fn, split, scale_list_fix)
         img_feats = [[] for _ in range(len(scale_list_fix))]
 
         for im_list in tqdm(test_loader):

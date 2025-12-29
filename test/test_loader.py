@@ -14,11 +14,20 @@ from test.dataset import DataSet
 
 
 # Default data directory (/path/pycls/pycls/datasets/data)
+from test.dataset_sam import DataSet_SAM
+from test.dataset_sg import DataSet_SG
 
-def _construct_loader(_DATA_DIR, dataset_name, fn, split, scale_list, batch_size, shuffle, drop_last):
+
+def _construct_loader(model, _DATA_DIR, dataset_name, fn, split, scale_list, batch_size, shuffle, drop_last):
     """Constructs the data loader for the given dataset."""
     # Construct the dataset
-    dataset = DataSet(_DATA_DIR, dataset_name, fn, split, scale_list)
+    if model == "SAM":
+        dataset = DataSet_SAM(_DATA_DIR, dataset_name, fn, split)
+    elif model == "SuperGlobal":
+        dataset = DataSet_SG(_DATA_DIR, dataset_name, fn, split, scale_list)
+    else:
+        dataset = DataSet(_DATA_DIR, dataset_name, fn, split)
+
     # Create a loader
     loader = torch.utils.data.DataLoader(
         dataset,
@@ -32,14 +41,15 @@ def _construct_loader(_DATA_DIR, dataset_name, fn, split, scale_list, batch_size
     return loader
 
 
-def construct_loader(_DATA_DIR, dataset_name, fn, split, scale_list):
+def construct_loader(model, _DATA_DIR, dataset_name, fn, split, scale_list):
     """Test loader wrapper."""
     return _construct_loader(
+        model=model,
         _DATA_DIR=_DATA_DIR,
         dataset_name=dataset_name,
         fn=fn,
         split=split,
-        scale_list = scale_list,
+        scale_list=scale_list,
         batch_size=1,
         shuffle=False,
         drop_last=False,

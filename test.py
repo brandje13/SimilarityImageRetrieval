@@ -14,7 +14,6 @@ def main():
     config.load_cfg_fom_args("test a CVNet model.")
     c.NUM_GPUS = 1
     c.freeze()
-    cfg = config_gnd(c.TEST.DATASET, c.TEST.DATA_DIR, c.TEST.CUSTOM)
 
     if c.TEST.CUSTOM:
         query_paths = askopenfilenames()
@@ -33,8 +32,10 @@ def main():
     else:
         assert c.TEST.DATASET
 
+    cfg = config_gnd(c.TEST.DATASET, c.TEST.DATA_DIR, c.TEST.CUSTOM, gnd)
+
     SG_ranks = CVNet_tester.__main__(gnd, cfg)
-    SG_top = retrieve_and_print_top_n(cfg, SG_ranks, 10, False)
+    SG_top = retrieve_and_print_top_n(cfg, SG_ranks, 10, True)
 
     # TODO: SAM
 

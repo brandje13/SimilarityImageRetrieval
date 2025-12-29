@@ -21,13 +21,17 @@ import json
 _MEAN = [0.406, 0.456, 0.485]
 _SD = [0.225, 0.224, 0.229]
 
-class DataSet(torch.utils.data.Dataset):
-    """Common dataset."""
 
-    def __init__(self, data_path, dataset, fn, split, scale_list):
+class DataSet(torch.utils.data.Dataset):
+    """Base Dataset class."""
+
+    def __init__(self, data_path, dataset, fn, split):
         assert os.path.exists(
             data_path), "Data path '{}' not found".format(data_path)
-        self._data_path, self._dataset, self._fn, self._split, self._scale_list = data_path, dataset, fn, split, scale_list
+        self._data_path = data_path
+        self._dataset = dataset
+        self._fn = fn
+        self._split = split
         self._construct_db()
 
     def _construct_db(self):
@@ -49,48 +53,23 @@ class DataSet(torch.utils.data.Dataset):
                         im_path = os.path.join(self._data_path, self._dataset, im_fn)
                         self._db.append({"im_path": im_path})
         else:
-            assert() # Dataset does not exist
+            assert ()  # Dataset does not exist
 
-    def _prepare_im(self, im):
-        """Prepares the image for network input."""
-        im = im.transpose([2, 0, 1])
-        # [0, 255] -> [0, 1]
-        im = im / 255.0
-        # Color normalization
-        im = transforms.color_norm(im, _MEAN, _SD)
-        return im
-
-    def __getitem__(self, index):
+    def _load_img(self, index):
         # Load the image
-        im_list = []
         try:
             im = cv2.imread(self._db[index]["im_path"])
 
             if self._split == "query":
                 bbx = self._db[index]["bbox"]
                 im = im[int(bbx[1]):int(bbx[3]), int(bbx[0]):int(bbx[2])]
-
-            for scale in self._scale_list:
-                if scale == 1.0:
-                    im_np = im.astype(np.float32, copy=False)
-                    im_list.append(im_np)
-                elif scale < 1.0:
-                    im_resize = cv2.resize(im, dsize=(0,0), fx=scale, fy=scale, interpolation=cv2.INTER_AREA)
-                    im_np = im_resize.astype(np.float32, copy=False)
-                    im_list.append(im_np)
-                elif scale > 1.0:
-                    im_resize = cv2.resize(im, dsize=(0,0), fx=scale, fy=scale, interpolation=cv2.INTER_LINEAR)
-                    im_np = im_resize.astype(np.float32, copy=False)
-                    im_list.append(im_np)      
-                else:
-                    assert()
-      
+            return im
         except:
             print('error: ', self._db[index]["im_path"])
+            return None
 
-        for idx in range(len(im_list)):
-            im_list[idx] = self._prepare_im(im_list[idx])
-        return im_list
+    def __getitem__(self, index):
+        return self._load_img(index)
 
     def __len__(self):
         return len(self._db)

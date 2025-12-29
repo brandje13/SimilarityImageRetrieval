@@ -1141,5 +1141,6 @@
             "good": [],
             "junk": []
         }
-    ]
+    ],
+    "path": ".\\datasets\\ILIAS_Test"
 }
