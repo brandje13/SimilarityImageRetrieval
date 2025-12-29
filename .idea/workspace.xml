@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3dcb7a-ed7d-47df-90f3-b54f3599d71a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model/SAM/check_sam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/dataset_sam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/dataset_sg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/ILIAS_Test/gnd_ILIAS_Test.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ILIAS_Test/gnd_ILIAS_Test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/SuperGlobal/CVNet_Rerank_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/CVNet_Rerank_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/config_gnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/config_gnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,11 +493,6 @@
           <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
           <line>24</line>
           <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_loader.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
