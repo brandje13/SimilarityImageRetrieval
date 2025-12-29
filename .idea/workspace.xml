@@ -6,9 +6,269 @@
   <component name="ChangeListManager">
     <list default="true" id="ee3dcb7a-ed7d-47df-90f3-b54f3599d71a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/CVNet_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/CVNet_tester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract_rop1m.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_rop1m.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_renamer.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_renamer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/groundtruth_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/groundtruth_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/CVNet_Rerank_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/CVNet_Rerank_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/CVlearner.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/CVlearner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/ViT.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/ViT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/base/conv4d.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/base/conv4d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/base/correlation.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/base/correlation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/base/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/base/feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/base/geometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/base/geometry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/ILIAS/gnd_ILIAS.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ILIAS/gnd_ILIAS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/ILIAS_Test/gnd_ILIAS_Test.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ILIAS_Test/gnd_ILIAS_Test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/Annotation/.assigned_classes.csv.swp" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/Annotation/.assigned_classes.csv.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/Annotation/.ipynb_checkpoints/Data preparation-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/Annotation/.ipynb_checkpoints/Data preparation-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/Annotation/Data preparation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/Annotation/Data preparation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/Annotation/annotation_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/Annotation/annotation_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/Annotation/annotation_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/Annotation/annotation_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/Annotation/assigned_classes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/Annotation/assigned_classes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/Annotation/groundtruth_IQM_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/Annotation/groundtruth_IQM_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/Annotation/groundtruth_IQM_query.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/Annotation/groundtruth_IQM_query.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/gnd_IQM.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/gnd_IQM.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/queries/groundtruth_IQM_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/queries/groundtruth_IQM_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/IQM/queries/groundtruth_IQM_query.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/IQM/queries/groundtruth_IQM_query.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/catndogs/PetImages/Cat/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/catndogs/PetImages/Cat/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/catndogs/PetImages/Dog/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/catndogs/PetImages/Dog/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/catndogs/gnd_catndogs.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/catndogs/gnd_catndogs.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/custom.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/custom.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/gnd_roxford5k.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/gnd_roxford5k.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/gnd_roxford5k.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/gnd_roxford5k.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/pitt_rivers_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/pitt_rivers_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/all_souls_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/all_souls_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/ashmolean_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/ashmolean_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/balliol_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/balliol_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/bodleian_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/bodleian_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/christ_church_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/christ_church_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/cornmarket_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/cornmarket_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/hertford_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/hertford_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/keble_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/keble_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/magdalen_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/magdalen_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_1_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_1_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_1_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_1_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_1_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_1_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_2_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_2_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_2_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_2_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_2_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_2_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_3_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_3_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_3_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_3_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_3_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_3_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_4_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_4_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_4_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_4_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_4_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_4_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_5_good.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_5_good.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_5_junk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_5_junk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_5_ok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_5_ok.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/rest/radcliffe_camera_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/rest/radcliffe_camera_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/test/custom/pitt_rivers_1_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/test/custom/pitt_rivers_1_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/test/custom/pitt_rivers_2_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/test/custom/pitt_rivers_2_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/test/custom/pitt_rivers_3_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/test/custom/pitt_rivers_3_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/test/custom/pitt_rivers_4_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/test/custom/pitt_rivers_4_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/test/custom/pitt_rivers_5_query.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/test/custom/pitt_rivers_5_query.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/test/gnd_roxford5k.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/test/gnd_roxford5k.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/roxford5k/groundtruth/test/gnd_roxford5k.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/roxford5k/groundtruth/test/gnd_roxford5k.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revisitop/smartTrim/gnd_smartTrim.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/smartTrim/gnd_smartTrim.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/config_gnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/config_gnd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/evaluate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +302,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\model\SuperGlobal" />
       <recent name="C:\Users\20163926\Documents\TUe - Master - Year 2\Thesis\SuperGlobal\SuperGlobal\revisitop\roxford5k" />
       <recent name="C:\Users\20163926\Documents\TUe - Master - Year 2\Thesis\SuperGlobal\SuperGlobal\revisitop" />
     </key>
@@ -60,7 +321,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\revisitop TEST.DATASET 'ILIAS' TEST.EVALUATE True TEST.UPDATE_DATA False SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
+      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\datasets TEST.DATASET 'ILIAS' TEST.EVALUATE True TEST.UPDATE_DATA False SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -102,7 +363,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\revisitop TEST.DATASET 'ILIAS_Test' TEST.EVALUATE True SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
+      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\datasets TEST.DATASET 'ILIAS_Test' TEST.EVALUATE True SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -123,7 +384,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\revisitop SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
+      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\datasets SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -283,87 +544,87 @@
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/CVlearner.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/CVlearner.py</url>
           <line>57</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>61</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>86</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>106</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>135</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>160</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>185</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>203</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>219</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>276</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>205</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>187</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>169</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>137</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>108</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>88</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>62</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
@@ -383,47 +644,47 @@
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>221</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>136</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>164</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>161</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>265</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>272</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>298</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>269</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>270</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>

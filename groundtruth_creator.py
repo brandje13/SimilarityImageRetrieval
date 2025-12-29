@@ -55,12 +55,12 @@ def process_txt_files(folder_path_txt, folder_path_img):
 
 
 # Specify the folder path containing the text files
-folder_path_txt = 'revisitop/roxford5k/groundtruth/'
-folder_path_img = 'revisitop/roxford5k/'
+folder_path_txt = 'datasets/roxford5k/groundtruth/'
+folder_path_img = 'datasets/roxford5k/'
 
 # Process the text files and store the result in 'result'
 result = process_txt_files(folder_path_txt, folder_path_img)
 
 # Save the result as json
-with open('./revisitop/roxford5k/gnd_roxford5k.json', 'w') as json_file:
+with open('datasets/roxford5k/gnd_roxford5k.json', 'w') as json_file:
     json.dump(result, json_file, indent=4)

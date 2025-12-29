@@ -34,9 +34,10 @@ def main():
         assert c.TEST.DATASET
 
     SG_ranks = CVNet_tester.__main__(gnd, cfg)
-    SG_top = retrieve_and_print_top_n(cfg, SG_ranks, 10)
+    SG_top = retrieve_and_print_top_n(cfg, SG_ranks, 10, False)
 
     # TODO: SAM
+
 
     # TODO: retrieve_and_print_top_k
 

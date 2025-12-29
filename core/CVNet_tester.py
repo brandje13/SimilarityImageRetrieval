@@ -1,9 +1,8 @@
 r""" Test code of Correlation Verification Network """
 # written by Seongwon Lee (won4113@yonsei.ac.kr)
 
-import torch
 import core.checkpoint as checkpoint
-from model.CVNet_Rerank_model import CVNet_Rerank
+from model.SuperGlobal.CVNet_Rerank_model import CVNet_Rerank
 from test.test_model import test_model
 import logging
 from config import cfg as c

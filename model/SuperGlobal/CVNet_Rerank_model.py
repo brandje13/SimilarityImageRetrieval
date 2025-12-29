@@ -8,7 +8,7 @@ from operator import add
 import torch
 import torch.nn as nn
 
-from model.resnet import ResNet
+from model.SuperGlobal.resnet import ResNet
 
 from .base.feature import extract_feat_res_pycls
 from .base.correlation import Correlation

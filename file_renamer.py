@@ -10,4 +10,4 @@ def rename_images(directory):
             os.rename(os.path.join(directory, filename), os.path.join(directory, name + filename))
             print(filename)
 
-rename_images("./revisitop/catndogs/PetImages/Dog/")
+rename_images("./datasets/catndogs/PetImages/Dog/")
