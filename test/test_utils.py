@@ -1,8 +1,6 @@
 # written by Seongwon Lee (won4113@yonsei.ac.kr)
 import os
 import shutil
-
-import pandas as pd
 import torch
 import torch.nn.functional as F
 from tqdm import tqdm

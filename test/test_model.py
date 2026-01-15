@@ -8,9 +8,7 @@ import faiss
 import torch
 import numpy as np
 
-from test.test_utils import extract_feature, test_revisitop, retrieve_and_print_top_n, create_groundtruth, \
-    create_groundtruth_from_txt
-from test.dataset import DataSet
+from test.test_utils import extract_feature, test_revisitop
 
 from modules.reranking.MDescAug import MDescAug
 from modules.reranking.RerankwMDA import RerankwMDA
