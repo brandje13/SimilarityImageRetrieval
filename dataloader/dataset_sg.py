@@ -7,16 +7,10 @@
 
 """ImageNet dataset."""
 
-import os
-import re
-
 import cv2
 import numpy as np
 import core.transforms as transforms
-import torch.utils.data
-from test.dataset import DataSet
-
-import json
+from dataloader.dataset import DataSet
 
 # Per-channel mean and SD values in BGR order
 _MEAN = [0.406, 0.456, 0.485]

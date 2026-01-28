@@ -65,11 +65,11 @@ _C.TEST.SCALE_LIST = 3
 _C.TEST.TOPK_LIST = [400]
 _C.TEST.CUSTOM = False
 _C.TEST.UPDATE_DATA = False
-_C.TEST.UPDATE_QUERIES = False
+_C.TEST.UPDATE_QUERIES = True
 _C.TEST.EVALUATE = False
 
 # ------------------------------------------------------------------------------------ #
-# Common train/test data loader options
+# Common train/utils data loader options
 # ------------------------------------------------------------------------------------ #
 _C.DATA_LOADER = CfgNode()
 # Number of data loader workers per process
@@ -112,14 +112,15 @@ _C.CUDNN.BENCHMARK = True
 # ------------------------------------------------------------------------------------ #
 # SuperGlobal options
 # ------------------------------------------------------------------------------------ #
-_C.SupG = CfgNode()
 
+_C.SupG = CfgNode()
 _C.SupG.gemp = True
 _C.SupG.sgem = True
 _C.SupG.rgem = True
 _C.SupG.relup = True
 _C.SupG.rerank = True
 _C.SupG.onemeval = True
+
 # ------------------------------------------------------------------------------------ #
 # Deprecated keys
 # ------------------------------------------------------------------------------------ #

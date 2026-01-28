@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3dcb7a-ed7d-47df-90f3-b54f3599d71a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dataset_sam.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/dataset_sam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dataset_sg.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/dataset_sg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="ee3dcb7a-ed7d-47df-90f3-b54f3599d71a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimilarityImageRetrieval/test.py" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -46,27 +40,27 @@
       <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\model\SAM" />
-      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\weights" />
-      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\SimilarityImageRetrieval\model\SuperGlobal" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\SimilarityImageRetrieval\model\SAM\utils" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\model\SuperGlobal\test" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\dataloader" />
       <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\model\SuperGlobal" />
-      <recent name="C:\Users\20163926\Documents\TUe - Master - Year 2\Thesis\SuperGlobal\SuperGlobal\revisitop\roxford5k" />
     </key>
   </component>
   <component name="RunManager" selected="Python.ILIAS">
     <configuration name="ILIAS" type="PythonConfigurationType" factoryName="Python">
-      <module name="SuperGlobal" />
+      <module name="Similarity Image Retrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../SimilarityImageRetrieval" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../SimilarityImageRetrieval/test.py" />
       <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\datasets TEST.DATASET 'ILIAS' TEST.EVALUATE True TEST.UPDATE_QUERIES True TEST.UPDATE_DATA False SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,8 +69,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Similarity Image Retrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="check_sam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SuperGlobal" />
+      <module name="Similarity Image Retrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -97,7 +112,7 @@
       <method v="2" />
     </configuration>
     <configuration name="groundtruth_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SuperGlobal" />
+      <module name="Similarity Image Retrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -118,7 +133,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test (ILIAS)" type="PythonConfigurationType" factoryName="Python">
-      <module name="SuperGlobal" />
+      <module name="Similarity Image Retrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -139,7 +154,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="SuperGlobal" />
+      <module name="Similarity Image Retrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -204,18 +219,93 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in check_sam.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="SuperGlobal" />
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Similarity Image Retrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="Similarity Image Retrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="Similarity Image Retrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in check_sam.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Similarity Image Retrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../SimilarityImageRetrieval" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/model/SAM/check_sam.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../SimilarityImageRetrieval/model/SAM/check_sam.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="Similarity Image Retrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Similarity Image Retrieval" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <list>
@@ -264,239 +354,244 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/MDescAug.py</url>
           <line>34</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/MDescAug.py</url>
           <line>35</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/MDescAug.py</url>
           <line>38</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/MDescAug.py</url>
           <line>46</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/MDescAug.py</url>
           <line>48</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/MDescAug.py</url>
           <line>52</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>19</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>20</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>21</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>24</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>31</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>36</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>40</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/CVlearner.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/CVlearner.py</url>
           <line>57</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>61</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>86</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>106</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>135</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>160</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>185</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>203</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>219</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>276</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>205</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>187</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>169</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>137</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>108</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>88</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>62</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/rgem.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/coarse_retrieval/rgem.py</url>
           <line>32</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/gemp.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/coarse_retrieval/gemp.py</url>
           <line>18</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>26</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>221</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>136</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>164</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>161</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>265</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>272</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>298</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>269</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/resnet.py</url>
           <line>270</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>17</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>20</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>21</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>23</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>24</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../SimilarityImageRetrieval/model/SAM/utils/SAM_test_model.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="116" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

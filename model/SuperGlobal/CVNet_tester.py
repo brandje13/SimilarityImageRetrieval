@@ -3,7 +3,7 @@ r""" Test code of Correlation Verification Network """
 
 import core.checkpoint as checkpoint
 from model.SuperGlobal.CVNet_Rerank_model import CVNet_Rerank
-from test.test_model import test_model
+from model.SuperGlobal.utils.SG_test_model import test_model
 import logging
 from config import cfg as c
 
@@ -34,7 +34,7 @@ def setup_model(device, encoder):
 def __main__(gnd, cfg):
     """Test the model."""
     if c.TEST.WEIGHTS == "":
-        print("no test weights exist!!")
+        print("no utils weights exist!!")
         ranks = []
     else:
         # Construct the model
@@ -45,7 +45,7 @@ def __main__(gnd, cfg):
         checkpoint.load_checkpoint(c.TEST.WEIGHTS, model)
 
         ranks = test_model(model, device, cfg, gnd, c.TEST.DATA_DIR, c.TEST.DATASET, c.TEST.SCALE_LIST, c.TEST.CUSTOM,
-                   c.TEST.UPDATE_DATA, c.TEST.UPDATE_QUERIES, c.SupG.rerank, c.SupG.gemp, c.SupG.rgem,
+                   c.TEST.UPDATE_DATA, c.TEST.UPDATE_QUERIES, c.TEST.TOPK_LIST, c.SupG.rerank, c.SupG.gemp, c.SupG.rgem,
                    c.SupG.sgem, c.SupG.onemeval, c.MODEL.DEPTH, c.TEST.EVALUATE, logger)
 
     return ranks

@@ -8,7 +8,9 @@
 """ImageNet dataset."""
 
 import cv2
-from test.dataset import DataSet
+import torch
+from dataloader.dataset import DataSet
+from segment_anything.utils.transforms import ResizeLongestSide
 
 
 class DataSet_SAM(DataSet):
@@ -16,10 +18,14 @@ class DataSet_SAM(DataSet):
 
     def __init__(self, data_path, dataset, fn, split):
         super().__init__(data_path, dataset, fn, split)
+        self.transform = ResizeLongestSide(1024)
 
     def __getitem__(self, index):
         # Load the image
         im = self._load_img(index)
         im = cv2.cvtColor(im, cv2.COLOR_BGR2RGB)
-        return im
+        im = self.transform.apply_image(im)
+        im_tensor = torch.as_tensor(im)
+        im_tensor = im_tensor.permute(2, 0, 1)
 
+        return im_tensor

@@ -2,16 +2,18 @@
 import os
 
 import config as config
-import core.CVNet_tester as CVNet_tester
+import model.SuperGlobal.CVNet_tester as CVNet_tester
 from tkfilebrowser import askopenfilenames, askopendirname
 
 from config import cfg as c
-from test.config_gnd import config_gnd
-from test.test_utils import create_groundtruth_from_txt, create_groundtruth, retrieve_and_print_top_n
+from model.SAM import SAM_tester
+from utils.config_gnd import config_gnd
+from utils.groundtruth import create_groundtruth_from_txt, create_groundtruth
+from utils.SIR_topk import retrieve_and_print_top_k
 
 
 def main():
-    config.load_cfg_fom_args("test a CVNet model.")
+    config.load_cfg_fom_args("utils a CVNet model.")
     c.NUM_GPUS = 1
     c.freeze()
 
@@ -33,14 +35,13 @@ def main():
         assert c.TEST.DATASET
 
     cfg = config_gnd(c.TEST.DATASET, c.TEST.DATA_DIR, c.TEST.CUSTOM, gnd)
+    top_k = 10
 
-    SG_ranks = CVNet_tester.__main__(gnd, cfg)
-    SG_top = retrieve_and_print_top_n(cfg, SG_ranks, 10, True)
+    #SG_ranks = CVNet_tester.__main__(gnd, cfg)
+    #SG_top = retrieve_and_print_top_k(cfg, SG_ranks, top_k, True)
 
-    # TODO: SAM
-
-
-    # TODO: retrieve_and_print_top_k
+    SAM_ranks = SAM_tester.__main__(gnd, cfg)
+    SAM_top = retrieve_and_print_top_k(cfg, SAM_ranks, top_k, True)
 
     # TODO: Union or Intersection
 

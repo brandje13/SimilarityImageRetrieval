@@ -2,7 +2,6 @@
 
 import numpy as np
 
-#from test.test_utils import print_images
 
 
 def compute_ap(ranks, nres):
@@ -86,12 +85,9 @@ def compute_map(ranks, gnd, cfg, kappas=[]):
         # sorted positions of positive and junk images (0 based)
         pos = np.arange(ranks.shape[0])[np.in1d(ranks[:, i], np.array([cfg['imlist'].index(i) for i in qgnd]))]
         junk = np.arange(ranks.shape[0])[np.in1d(ranks[:, i], np.array([cfg['imlist'].index(i) for i in qgndj]))]
-        #print_images(cfg, , pos, cfg["dir_images"])
-        #pos = np.array([cfg['imlist'].index(i) for i in qgnd])
-        #junk = np.array([cfg['imlist'].index(i) for i in qgndj])
 
-        k = 0;
-        ij = 0;
+        k = 0
+        ij = 0
         if len(junk):
             # decrease positions of positives based on the number of
             # junk images appearing before them

@@ -11,10 +11,10 @@ import torch
 import torch.nn as nn
 import torchvision
 import torch.nn.functional as F
-from modules.coarse_retrieval.rgem import rgem
-from modules.coarse_retrieval.gemp import gemp
-from modules.coarse_retrieval.sgem import sgem
-from modules.coarse_retrieval.relup import relup
+from model.SuperGlobal.modules.coarse_retrieval.rgem import rgem
+from model.SuperGlobal.modules.coarse_retrieval.gemp import gemp
+from model.SuperGlobal.modules.coarse_retrieval.sgem import sgem
+from model.SuperGlobal.modules.coarse_retrieval.relup import relup
 # Stage depths for ImageNet models
 _IN_STAGE_DS = {50: (3, 4, 6, 3), 101: (3, 4, 23, 3), 152: (3, 8, 36, 3)}
 TRANS_FUN = "bottleneck_transform"
