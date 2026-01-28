@@ -65,7 +65,7 @@ _C.TEST.SCALE_LIST = 3
 _C.TEST.TOPK_LIST = [400]
 _C.TEST.CUSTOM = False
 _C.TEST.UPDATE_DATA = False
-_C.TEST.UPDATE_QUERIES = True
+_C.TEST.UPDATE_QUERIES = False
 _C.TEST.EVALUATE = False
 
 # ------------------------------------------------------------------------------------ #
