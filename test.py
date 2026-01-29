@@ -41,7 +41,7 @@ def main():
     #SG_top = retrieve_and_print_top_k(cfg, SG_ranks, top_k, True)
 
     SAM_ranks = SAM_tester.__main__(gnd, cfg)
-    SAM_top = retrieve_and_print_top_k(cfg, SAM_ranks, top_k, True)
+    SAM_top = retrieve_and_print_top_k(cfg, SAM_ranks, top_k, False)
 
     # TODO: Union or Intersection
 

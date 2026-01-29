@@ -1,10 +1,13 @@
 import os
+
+import faiss
 import torch
 from model.SAM.utils.SAM_utils import extract_SAM_features
+import torch.nn.functional as F
 
 
 @torch.no_grad()
-def test_SAM(model, device, cfg, gnd, data_dir, dataset, custom, update_data, update_queries):
+def test_SAM(model, device, cfg, gnd, data_dir, dataset, custom, update_data, update_queries, top_k_list):
     torch.backends.cudnn.benchmark = True
     model.eval()
     torch.cuda.set_device(device)
@@ -31,7 +34,20 @@ def test_SAM(model, device, cfg, gnd, data_dir, dataset, custom, update_data, up
     Q_tensor = torch.from_numpy(Q).float().to(device)
     X_tensor = torch.from_numpy(X).float().to(device)
 
-    ranks = 0
+    # Build Index (Flat = Brute Force, IP = Inner Product)
+    # 256 is the dimension of the features
+    index = faiss.IndexFlatIP(256)
+
+    # Add Gallery (X) to Index
+    index.add(X_tensor.cpu().numpy())
+
+    # Search
+    # dist = distances, inx = indices (ranks)
+    dist, inx = index.search(Q_tensor.cpu().numpy(), top_k_list[0])
+
+    # 'I' is your 'ranks' variable
+    ranks = inx.T  # Transpose to match your original shape (Gallery, Query)
+
     return ranks
 
 

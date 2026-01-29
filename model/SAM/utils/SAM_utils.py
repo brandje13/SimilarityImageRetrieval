@@ -1,6 +1,7 @@
 import torch
 from tqdm import tqdm
 
+import torch.nn.functional as F
 import dataloader.test_loader as loader
 
 @torch.no_grad()
@@ -14,4 +15,7 @@ def extract_SAM_features(model, data_dir, dataset, gnd_fn, split):
         desc = torch.mean(feats, dim=(2, 3))
         im_feats.append(desc.detach().cpu())
 
-    return im_feats
+    im_feats = torch.cat(im_feats, dim=0)
+    im_feats = F.normalize(im_feats, p=2, dim=1)
+
+    return im_feats.numpy()

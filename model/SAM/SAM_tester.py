@@ -9,5 +9,5 @@ def __main__(gnd, cfg):
     model = model.cuda(device=device)
 
     ranks = test_SAM(model, device, cfg, gnd, c.TEST.DATA_DIR, c.TEST.DATASET, c.TEST.CUSTOM,
-                     c.TEST.UPDATE_DATA, c.TEST.UPDATE_QUERIES)
+                     c.TEST.UPDATE_DATA, c.TEST.UPDATE_QUERIES, c.TEST.TOPK_LIST)
     return ranks

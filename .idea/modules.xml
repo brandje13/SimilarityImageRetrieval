@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SuperGlobal.iml" filepath="$PROJECT_DIR$/.idea/SuperGlobal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SimilarityImageRetrieval.iml" filepath="$PROJECT_DIR$/.idea/SimilarityImageRetrieval.iml" />
     </modules>
   </component>
 </project>

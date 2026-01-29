@@ -57,7 +57,7 @@ def test_model(model, device, cfg, gnd, data_dir, dataset, scale_list, custom, u
 
 
     # Build Index (Flat = Brute Force, IP = Inner Product)
-    # 2048 is the dimension of your features
+    # 2048 is the dimension of the features
     index = faiss.IndexFlatIP(2048)
 
     # Add Gallery (X) to Index
