@@ -26,7 +26,7 @@ def create_groundtruth(query_paths, dir_path, dataset):
             # Add the file to the list
             data['imlist'].append(img)
 
-    if all(os.path.isdir(path) for path in query_paths) and dataset == "ILIAS":
+    if all(os.path.isdir(path) for path in query_paths) and (dataset == "ILIAS" or dataset == "ILIAS_Test"):
         for path in query_paths:
             temp_queries = []
             temp_path = os.path.join(path, "query")

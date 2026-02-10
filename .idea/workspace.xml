@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3dcb7a-ed7d-47df-90f3-b54f3599d71a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/SAM/SAM_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SAM/SAM_tester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/ILIAS_Test/gnd_ILIAS_Test.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ILIAS_Test/gnd_ILIAS_Test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/SAM/utils/SAM_test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SAM/utils/SAM_test_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/SAM/utils/SAM_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SAM/utils/SAM_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/SuperGlobal/utils/SG_test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/utils/SG_test_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/groundtruth.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/groundtruth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\model\SuperGlobal" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ILIAS">
+  <component name="RunManager" selected="Python.test (ILIAS)">
     <configuration name="ILIAS" type="PythonConfigurationType" factoryName="Python">
       <module name="SimilarityImageRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,15 +140,15 @@
       <method v="2" />
     </configuration>
     <configuration name="test (ILIAS)" type="PythonConfigurationType" factoryName="Python">
-      <module name="Similarity Image Retrieval" />
+      <module name="SimilarityImageRetrieval" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\brand\anaconda3\envs\SG\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />

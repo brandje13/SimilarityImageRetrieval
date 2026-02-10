@@ -1006,138 +1006,194 @@
         "01a9fb337a366a1d032fcffd32629e1.jpg",
         "01a9fce1c5fbd983369b44f3a6af28.jpg",
         "01a9fcf12a83b6eba974dfb6a3a8cc1.jpg",
-        "P000_00.jpg",
-        "P000_01.jpg",
-        "P000_02.jpg",
-        "P000_03.jpg",
-        "P000_04.jpg",
-        "P000_05.jpg",
-        "P000_06.jpg",
-        "P000_07.jpg",
-        "P000_08.jpg",
-        "P001_00.jpg",
-        "P001_01.jpg",
-        "P001_02.jpg",
-        "P001_03.jpg",
-        "P001_04.jpg",
-        "P001_05.jpg",
-        "P001_06.jpg",
-        "P001_07.jpg",
-        "P001_08.jpg",
-        "P002_00.jpg",
-        "P002_01.jpg",
-        "P002_02.jpg",
-        "P002_03.jpg",
-        "P002_04.jpg",
-        "P002_05.jpg",
-        "P002_06.jpg",
-        "P003_00.jpg",
-        "P003_01.jpg",
-        "P003_02.jpg",
-        "P003_03.jpg",
-        "P003_04.jpg",
-        "P003_05.jpg",
-        "P003_06.jpg",
-        "P004_00.jpg",
-        "P004_01.jpg",
-        "P004_02.jpg",
-        "P004_03.jpg",
-        "P005_00.jpg",
-        "P005_01.jpg",
-        "P005_02.jpg",
-        "P005_03.jpg"
+        "queries\\bold_bimp_000\\pos\\P000_00.jpg",
+        "queries\\bold_bimp_000\\pos\\P000_01.jpg",
+        "queries\\bold_bimp_000\\pos\\P000_02.jpg",
+        "queries\\bold_bimp_000\\pos\\P000_03.jpg",
+        "queries\\bold_bimp_000\\pos\\P000_04.jpg",
+        "queries\\bold_bimp_000\\pos\\P000_05.jpg",
+        "queries\\bold_bimp_000\\pos\\P000_06.jpg",
+        "queries\\bold_bimp_000\\pos\\P000_07.jpg",
+        "queries\\bold_bimp_000\\pos\\P000_08.jpg",
+        "queries\\bold_flep_001\\pos\\P001_00.jpg",
+        "queries\\bold_flep_001\\pos\\P001_01.jpg",
+        "queries\\bold_flep_001\\pos\\P001_02.jpg",
+        "queries\\bold_flep_001\\pos\\P001_03.jpg",
+        "queries\\bold_flep_001\\pos\\P001_04.jpg",
+        "queries\\bold_flep_001\\pos\\P001_05.jpg",
+        "queries\\bold_flep_001\\pos\\P001_06.jpg",
+        "queries\\bold_flep_001\\pos\\P001_07.jpg",
+        "queries\\bold_flep_001\\pos\\P001_08.jpg",
+        "queries\\bold_flim_002\\pos\\P002_00.jpg",
+        "queries\\bold_flim_002\\pos\\P002_01.jpg",
+        "queries\\bold_flim_002\\pos\\P002_02.jpg",
+        "queries\\bold_flim_002\\pos\\P002_03.jpg",
+        "queries\\bold_flim_002\\pos\\P002_04.jpg",
+        "queries\\bold_flim_002\\pos\\P002_05.jpg",
+        "queries\\bold_flim_002\\pos\\P002_06.jpg",
+        "queries\\bold_gim_003\\pos\\P003_00.jpg",
+        "queries\\bold_gim_003\\pos\\P003_01.jpg",
+        "queries\\bold_gim_003\\pos\\P003_02.jpg",
+        "queries\\bold_gim_003\\pos\\P003_03.jpg",
+        "queries\\bold_gim_003\\pos\\P003_04.jpg",
+        "queries\\bold_gim_003\\pos\\P003_05.jpg",
+        "queries\\bold_gim_003\\pos\\P003_06.jpg",
+        "queries\\bold_puff_004\\pos\\P004_00.jpg",
+        "queries\\bold_puff_004\\pos\\P004_01.jpg",
+        "queries\\bold_puff_004\\pos\\P004_02.jpg",
+        "queries\\bold_puff_004\\pos\\P004_03.jpg",
+        "queries\\bold_riff_005\\pos\\P005_00.jpg",
+        "queries\\bold_riff_005\\pos\\P005_01.jpg",
+        "queries\\bold_riff_005\\pos\\P005_02.jpg",
+        "queries\\bold_riff_005\\pos\\P005_03.jpg"
     ],
     "qimlist": [
-        "Q000_00.jpg",
-        "Q001_00.jpg",
-        "Q001_01.jpg",
-        "Q002_00.jpg",
-        "Q003_00.jpg",
-        "Q004_00.jpg",
-        "Q005_00.jpg"
+        "bold_bimp_000\\query\\Q000_00.jpg",
+        "bold_flep_001\\query\\Q001_00.jpg",
+        "bold_flep_001\\query\\Q001_01.jpg",
+        "bold_flim_002\\query\\Q002_00.jpg",
+        "bold_gim_003\\query\\Q003_00.jpg",
+        "bold_puff_004\\query\\Q004_00.jpg",
+        "bold_riff_005\\query\\Q005_00.jpg"
     ],
     "gnd": [
         {
-            "query": "Q000_00.jpg",
+            "query": "bold_bimp_000\\query\\Q000_00.jpg",
             "bbx": [
-                0,
-                0,
-                500,
-                500
+                10.0,
+                5.0,
+                497.0,
+                498.0
             ],
-            "ok": [],
+            "ok": [
+                "queries\\bold_bimp_000\\pos\\P000_00.jpg",
+                "queries\\bold_bimp_000\\pos\\P000_01.jpg",
+                "queries\\bold_bimp_000\\pos\\P000_02.jpg",
+                "queries\\bold_bimp_000\\pos\\P000_03.jpg",
+                "queries\\bold_bimp_000\\pos\\P000_04.jpg",
+                "queries\\bold_bimp_000\\pos\\P000_05.jpg",
+                "queries\\bold_bimp_000\\pos\\P000_06.jpg",
+                "queries\\bold_bimp_000\\pos\\P000_07.jpg",
+                "queries\\bold_bimp_000\\pos\\P000_08.jpg"
+            ],
             "good": [],
             "junk": []
         },
         {
-            "query": "Q001_00.jpg",
+            "query": "bold_flep_001\\query\\Q001_00.jpg",
             "bbx": [
-                0,
-                0,
-                500,
-                333
+                123.0,
+                78.0,
+                407.0,
+                272.0
             ],
-            "ok": [],
+            "ok": [
+                "queries\\bold_flep_001\\pos\\P001_00.jpg",
+                "queries\\bold_flep_001\\pos\\P001_01.jpg",
+                "queries\\bold_flep_001\\pos\\P001_02.jpg",
+                "queries\\bold_flep_001\\pos\\P001_03.jpg",
+                "queries\\bold_flep_001\\pos\\P001_04.jpg",
+                "queries\\bold_flep_001\\pos\\P001_05.jpg",
+                "queries\\bold_flep_001\\pos\\P001_06.jpg",
+                "queries\\bold_flep_001\\pos\\P001_07.jpg",
+                "queries\\bold_flep_001\\pos\\P001_08.jpg"
+            ],
             "good": [],
             "junk": []
         },
         {
-            "query": "Q001_01.jpg",
+            "query": "bold_flep_001\\query\\Q001_01.jpg",
             "bbx": [
-                0,
-                0,
-                500,
-                147
+                0.0,
+                0.0,
+                498.0,
+                147.0
             ],
-            "ok": [],
+            "ok": [
+                "queries\\bold_flep_001\\pos\\P001_00.jpg",
+                "queries\\bold_flep_001\\pos\\P001_01.jpg",
+                "queries\\bold_flep_001\\pos\\P001_02.jpg",
+                "queries\\bold_flep_001\\pos\\P001_03.jpg",
+                "queries\\bold_flep_001\\pos\\P001_04.jpg",
+                "queries\\bold_flep_001\\pos\\P001_05.jpg",
+                "queries\\bold_flep_001\\pos\\P001_06.jpg",
+                "queries\\bold_flep_001\\pos\\P001_07.jpg",
+                "queries\\bold_flep_001\\pos\\P001_08.jpg"
+            ],
             "good": [],
             "junk": []
         },
         {
-            "query": "Q002_00.jpg",
+            "query": "bold_flim_002\\query\\Q002_00.jpg",
             "bbx": [
-                0,
-                0,
-                500,
-                263
+                0.0,
+                0.0,
+                499.0,
+                263.0
             ],
-            "ok": [],
+            "ok": [
+                "queries\\bold_flim_002\\pos\\P002_00.jpg",
+                "queries\\bold_flim_002\\pos\\P002_01.jpg",
+                "queries\\bold_flim_002\\pos\\P002_02.jpg",
+                "queries\\bold_flim_002\\pos\\P002_03.jpg",
+                "queries\\bold_flim_002\\pos\\P002_04.jpg",
+                "queries\\bold_flim_002\\pos\\P002_05.jpg",
+                "queries\\bold_flim_002\\pos\\P002_06.jpg"
+            ],
             "good": [],
             "junk": []
         },
         {
-            "query": "Q003_00.jpg",
+            "query": "bold_gim_003\\query\\Q003_00.jpg",
             "bbx": [
-                0,
-                0,
-                333,
-                500
+                77.0,
+                165.0,
+                279.0,
+                390.0
             ],
-            "ok": [],
+            "ok": [
+                "queries\\bold_gim_003\\pos\\P003_00.jpg",
+                "queries\\bold_gim_003\\pos\\P003_01.jpg",
+                "queries\\bold_gim_003\\pos\\P003_02.jpg",
+                "queries\\bold_gim_003\\pos\\P003_03.jpg",
+                "queries\\bold_gim_003\\pos\\P003_04.jpg",
+                "queries\\bold_gim_003\\pos\\P003_05.jpg",
+                "queries\\bold_gim_003\\pos\\P003_06.jpg"
+            ],
             "good": [],
             "junk": []
         },
         {
-            "query": "Q004_00.jpg",
+            "query": "bold_puff_004\\query\\Q004_00.jpg",
             "bbx": [
-                0,
-                0,
-                335,
-                500
+                56.0,
+                27.0,
+                225.0,
+                476.0
             ],
-            "ok": [],
+            "ok": [
+                "queries\\bold_puff_004\\pos\\P004_00.jpg",
+                "queries\\bold_puff_004\\pos\\P004_01.jpg",
+                "queries\\bold_puff_004\\pos\\P004_02.jpg",
+                "queries\\bold_puff_004\\pos\\P004_03.jpg"
+            ],
             "good": [],
             "junk": []
         },
         {
-            "query": "Q005_00.jpg",
+            "query": "bold_riff_005\\query\\Q005_00.jpg",
             "bbx": [
-                0,
-                0,
-                500,
-                489
+                58.0,
+                59.0,
+                445.0,
+                437.0
             ],
-            "ok": [],
+            "ok": [
+                "queries\\bold_riff_005\\pos\\P005_00.jpg",
+                "queries\\bold_riff_005\\pos\\P005_01.jpg",
+                "queries\\bold_riff_005\\pos\\P005_02.jpg",
+                "queries\\bold_riff_005\\pos\\P005_03.jpg"
+            ],
             "good": [],
             "junk": []
         }
