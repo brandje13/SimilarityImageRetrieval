@@ -7,6 +7,7 @@ from tkfilebrowser import askopenfilenames, askopendirname
 
 from config import cfg as c
 from model.SAM import SAM_tester
+from model.DINOv2 import DINO_tester
 from utils.config_gnd import config_gnd
 from utils.groundtruth import create_groundtruth_from_txt, create_groundtruth
 from utils.SIR_topk import retrieve_and_print_top_k
@@ -37,11 +38,14 @@ def main():
     cfg = config_gnd(c.TEST.DATASET, c.TEST.DATA_DIR, c.TEST.CUSTOM, gnd)
     top_k = 10
 
-    #SG_ranks = CVNet_tester.__main__(gnd, cfg)
-    #SG_top = retrieve_and_print_top_k(cfg, SG_ranks, top_k, False)
+    SG_ranks = CVNet_tester.__main__(gnd, cfg)
+    SG_top = retrieve_and_print_top_k(cfg, SG_ranks, top_k, False)
 
-    SAM_ranks = SAM_tester.__main__(gnd, cfg)
-    SAM_top = retrieve_and_print_top_k(cfg, SAM_ranks, top_k, False)
+    #SAM_ranks = SAM_tester.__main__(gnd, cfg)
+    #SAM_top = retrieve_and_print_top_k(cfg, SAM_ranks, top_k, False)
+
+    DINO_ranks = DINO_tester.__main__(gnd, cfg)
+    DINO_top = retrieve_and_print_top_k(cfg, DINO_ranks, top_k, False)
 
     # TODO: Union or Intersection
 

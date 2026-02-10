@@ -14,6 +14,7 @@ from dataloader.dataset import DataSet
 # Default data directory (/path/pycls/pycls/datasets/data)
 from dataloader.dataset_sam import DataSet_SAM
 from dataloader.dataset_sg import DataSet_SG
+from dataloader.dataset_dino import DataSet_DINO
 
 
 def _construct_loader(model, _DATA_DIR, dataset_name, fn, split, scale_list, batch_size, shuffle, drop_last):
@@ -21,6 +22,8 @@ def _construct_loader(model, _DATA_DIR, dataset_name, fn, split, scale_list, bat
     # Construct the dataset
     if model == "SAM":
         dataset = DataSet_SAM(_DATA_DIR, dataset_name, fn, split)
+    elif model == "DINO":
+        dataset = DataSet_DINO(_DATA_DIR, dataset_name, fn, split)
     elif model == "SuperGlobal":
         dataset = DataSet_SG(_DATA_DIR, dataset_name, fn, split, scale_list)
     else:
