@@ -7,21 +7,20 @@ import torch.nn.functional as F
 from model.DINOv2.utils.DINO_utils import extract_DINO_features
 from model.SuperGlobal.utils.SG_utils import test_revisitop
 
+
 @torch.no_grad()
 def test_DINO(model, device, cfg, gnd, data_dir, dataset, custom, update_data, update_queries, top_k_list):
     torch.backends.cudnn.benchmark = True
     model.eval()
-    # DINO model is already on device from main call usually, but ensure it here
-    # model.to(device)
 
     text = '>> {}: Image Retrieval with DINOv2'.format(dataset)
     print(text)
 
+    # 1. Load Features
     print("extract query features")
     Q_path = os.path.join(data_dir, dataset, "DINO_query_features.pt")
     if update_queries or not os.path.isfile(Q_path):
         Q = extract_DINO_features(model, data_dir, dataset, gnd, "query")
-        # Save Protocol 4 for large files
         torch.save(Q, Q_path, pickle_protocol=4)
     else:
         Q = torch.load(Q_path)
@@ -34,51 +33,67 @@ def test_DINO(model, device, cfg, gnd, data_dir, dataset, custom, update_data, u
     else:
         X = torch.load(X_path)
 
-    print(f"Query Shape: {Q.shape}")    # Expect (N_q, 768, 1369)
-    print(f"Database Shape: {X.shape}") # Expect (N_db, 768, 1369)
+    print(f"Query Shape: {Q.shape}")
+    print(f"Database Shape: {X.shape}")
 
-    # 2. Flatten/View
-    # Q is already (N, Dim, N_Patches) from our utils
-    # We just need to ensure it's on GPU
     N_q, C, N_p = Q.shape
     N_db = X.shape[0]
 
+    # --- MEMORY FIX: Keep Database on CPU ---
+    # We only move Q to GPU because it's small (1232 images)
+    # X stays on CPU (29k images) until needed
     Q_flat = torch.from_numpy(Q).to(device)
-    X_flat = torch.from_numpy(X).to(device)
+    X_flat = torch.from_numpy(X)  # Keep on CPU!
 
-    print("Running DINO Patch-to-Patch Search (Max-Max)...")
+    # Optional: Normalize on CPU to save GPU work
+    # (Doing this on CPU is safer for memory)
+    X_flat = F.normalize(X_flat, dim=1)
+    Q_flat = F.normalize(Q_flat, dim=1)
 
-    # Store scores
+    print("Running Batched Patch-to-Patch Search...")
+
     all_scores = np.zeros((N_q, N_db), dtype=np.float32)
 
-    # 4. The Search Loop
+    # Search Configuration
+    # We process the Database in chunks (batches) to fit in GPU memory
+    DB_BATCH_SIZE = 100  # 100 images * 256 patches fits easily in 8GB
+
     for i in tqdm(range(N_q), desc="Queries"):
-        # Get one Query: (Dim, N_Patches)
-        q_patches = Q_flat[i]
+        # Get one Query: (1, 256, 768) - Transpose for matmul
+        # Q_flat[i] is (768, 256). Transpose -> (256, 768)
+        q_patches = Q_flat[i].t().unsqueeze(0)  # (1, 256, 768)
 
-        for j in range(N_db):
-            x_patches = X_flat[j] # (Dim, N_Patches)
+        # Loop through Database in Batches
+        for j in range(0, N_db, DB_BATCH_SIZE):
+            # 1. Slice Batch
+            end = min(j + DB_BATCH_SIZE, N_db)
 
-            # SIMILARITY MATRIX: (N_Patches_Q) x (N_Patches_DB)
-            # q_patches.t() -> (N_p, Dim)
-            # x_patches     -> (Dim, N_p)
-            # Result        -> (N_p, N_p)
-            sim_matrix = torch.mm(q_patches.t(), x_patches)
+            # 2. Move Batch to GPU
+            # X_batch shape: (B, 768, 256)
+            x_batch = X_flat[j:end].to(device)
 
-            # THE MAGIC: "Best Patch Match"
-            # For every patch in Query, find best match in Database
-            best_match_per_patch, _ = sim_matrix.max(dim=1)
+            # 3. Batched Matrix Multiplication
+            # (1, 256, 768) @ (B, 768, 256) -> (B, 256, 256)
+            # Result: [Batch, Query_Patch, DB_Patch] similarity
+            sim_matrix = torch.matmul(q_patches, x_batch)
 
-            # Average Top 50% of matches (Robust "Chamfer" Similarity)
-            # This ignores the background patches that have low matches
+            # 4. Max-Max Scoring (Optimized)
+            # Find best DB patch match for every Query patch
+            # Max over dim 2 (DB_Patches) -> (B, 256)
+            best_match_per_patch, _ = sim_matrix.max(dim=2)
+
+            # Average Top 50% matches
             k = int(N_p * 0.5)
-            top_k_scores, _ = torch.topk(best_match_per_patch, k)
-            score = top_k_scores.mean()
+            # Topk on dim 1 (Query_Patches) -> (B, k)
+            top_k_vals, _ = torch.topk(best_match_per_patch, k, dim=1)
 
-            all_scores[i, j] = score.item()
+            # Mean score for each image in batch -> (B,)
+            batch_scores = top_k_vals.mean(dim=1)
 
-    # 5. Rank Results
-    # Transpose to (N_Database, N_Queries) for evaluation
+            # 5. Store Results
+            all_scores[i, j:end] = batch_scores.cpu().numpy()
+
+    # Rank Results
     ranks = np.argsort(-all_scores, axis=1).T
 
     if True:

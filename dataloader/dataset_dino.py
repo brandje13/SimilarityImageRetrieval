@@ -13,7 +13,7 @@ class DataSet_DINO(DataSet):
         # 518 is a standard size (37x37 patches).
         self.transform = transforms.Compose([
             transforms.ToPILImage(),
-            transforms.Resize((518, 518), interpolation=transforms.InterpolationMode.BICUBIC),
+            transforms.Resize((224, 224), interpolation=transforms.InterpolationMode.BICUBIC),
             transforms.ToTensor(),
             transforms.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
         ])

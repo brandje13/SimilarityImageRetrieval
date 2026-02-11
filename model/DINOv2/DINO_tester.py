@@ -11,7 +11,7 @@ def __main__(gnd, cfg):
 
     # Load DINOv2 via timm (Compatible with Python < 3.10)
     # 'vit_base_patch14_dinov2' corresponds to the Base model
-    model = timm.create_model('vit_base_patch14_dinov2', pretrained=True)
+    model = timm.create_model('vit_base_patch14_dinov2', pretrained=True, img_size=224)
 
     model = model.cuda(device=device)
     model.eval()
