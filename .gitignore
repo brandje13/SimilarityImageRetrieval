@@ -2,24 +2,12 @@
 *.png
 *.jpg
 *.tgz
-weights/CVPR2022_CVNet_R101.pyth
-weights/CVPR2022_CVNet_R50.pyth
 *.jpeg
 log.txt
 *.pyc
 .idea/misc.xml
-.idea/SuperGlobal.iml
 *.pt
 *.zip
-/revisitop/ILIAS/queries/ilias_core
-/revisitop/revisitop/roxford5k
-/revisitop/revisitop/IQM
-/revisitop/IQM
-/revisitop/revisitop/catndogs
-/revisitop/revisitop/smartTrim
-/revisitop/IQM
-/revisitop/IQM/Annotation
-/revisitop/ILIAS
 /datasets
 /weights
 
