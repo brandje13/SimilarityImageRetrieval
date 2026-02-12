@@ -6,16 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="ee3dcb7a-ed7d-47df-90f3-b54f3599d71a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataloader/dataset_dino.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataloader/dataset_dino.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/DINOv2/DINO_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/DINOv2/DINO_tester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/DINOv2/utils/DINO_test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/DINOv2/utils/DINO_test_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/DINOv2/utils/DINO_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/DINOv2/utils/DINO_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/brand/Documents/TUe Master/Thesis/SimilarityImageRetrieval" value="2dE9gyJu6ZOlSh3yrOjlbi1Nmqo" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="GPT-5 mini" />
+      <entry key="agent-panel" value="GPT-5 mini" />
+    </selectedModels>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,18 +37,22 @@
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dE9gyJu6ZOlSh3yrOjlbi1Nmqo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataloader" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ILIAS.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "DINOv2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\brand\Documents\TUe Master\Thesis\SimilarityImageRetrieval\dataloader" />
@@ -59,6 +70,7 @@
   <component name="RunManager" selected="Python.ILIAS">
     <configuration name="ILIAS" type="PythonConfigurationType" factoryName="Python">
       <module name="SimilarityImageRetrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -80,6 +92,7 @@
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -101,6 +114,7 @@
     </configuration>
     <configuration name="check_sam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -122,6 +136,7 @@
     </configuration>
     <configuration name="groundtruth_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -143,6 +158,7 @@
     </configuration>
     <configuration name="test (ILIAS)" type="PythonConfigurationType" factoryName="Python">
       <module name="SimilarityImageRetrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -164,6 +180,7 @@
     </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -230,6 +247,7 @@
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -241,6 +259,7 @@
     </configuration>
     <configuration default="true" type="docs" factoryName="Docutils task">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -257,6 +276,7 @@
     </configuration>
     <configuration default="true" type="docs" factoryName="Sphinx task">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -273,6 +293,7 @@
     </configuration>
     <configuration name="Python tests in check_sam.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -287,6 +308,7 @@
     </configuration>
     <configuration default="true" type="tests" factoryName="Autodetect">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -301,6 +323,7 @@
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -321,8 +344,8 @@
       <item itemvalue="Python.ILIAS" />
       <item itemvalue="Python.test (ILIAS)" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.groundtruth_creator" />
       <item itemvalue="Python.check_sam" />
+      <item itemvalue="Python.groundtruth_creator" />
       <item itemvalue="Python tests.Python tests in check_sam.py" />
       <item itemvalue="Shell Script.Test (Custom)" />
       <item itemvalue="Shell Script.Test (No pooling)" />
@@ -335,6 +358,13 @@
         <item itemvalue="Python.groundtruth_creator" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7bb8055f9097-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.28238.29" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -357,40 +387,29 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
-          <line>34</line>
+          <line>92</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
-          <line>35</line>
+          <line>93</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
-          <line>38</line>
+          <line>96</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
-          <line>46</line>
+          <line>104</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
@@ -606,5 +625,13 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
