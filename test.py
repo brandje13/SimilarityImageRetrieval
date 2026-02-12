@@ -39,15 +39,16 @@ def main():
     top_k = 10
 
     SG_ranks = CVNet_tester.__main__(gnd, cfg)
-    SG_top = retrieve_and_print_top_k(cfg, SG_ranks, top_k, False)
+    SG_top = retrieve_and_print_top_k(cfg, SG_ranks, top_k, True)
 
     #SAM_ranks = SAM_tester.__main__(gnd, cfg)
     #SAM_top = retrieve_and_print_top_k(cfg, SAM_ranks, top_k, False)
 
-    #DINO_ranks = DINO_tester.__main__(gnd, cfg)
-    #DINO_top = retrieve_and_print_top_k(cfg, DINO_ranks, top_k, False)
+    DINO_ranks = DINO_tester.__main__(gnd, cfg)
+    DINO_top = retrieve_and_print_top_k(cfg, DINO_ranks, top_k, True)
 
     # TODO: Union or Intersection
+
 
     # TODO: Show final set
 
