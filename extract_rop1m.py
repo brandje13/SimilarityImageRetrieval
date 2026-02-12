@@ -1,6 +1,6 @@
 import torch
-from model.CVNet_Rerank_model import CVNet_Rerank
-from test.dataset_1m import DataSet
+from model.SuperGlobal.CVNet_Rerank_model import CVNet_Rerank
+from dataloader.dataset_1m import DataSet
 from tqdm import tqdm
 import torch.nn.functional as F
 import argparse

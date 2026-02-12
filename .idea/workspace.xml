@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3dcb7a-ed7d-47df-90f3-b54f3599d71a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/revisitop/ILIAS/gnd_ILIAS.json" beforeDir="false" afterPath="$PROJECT_DIR$/revisitop/ILIAS/gnd_ILIAS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/config_gnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/config_gnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/brand/Documents/TUe Master/Thesis/SimilarityImageRetrieval" value="2dE9gyJu6ZOlSh3yrOjlbi1Nmqo" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="GPT-5 mini" />
+      <entry key="agent-panel" value="GPT-5 mini" />
+    </selectedModels>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,26 +34,86 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dE9gyJu6ZOlSh3yrOjlbi1Nmqo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Program Files (x86)/Steam/steamapps/common/Project V for Victory" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ILIAS.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "DINOv2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\SimilarityImageRetrieval\dataloader" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\SimilarityImageRetrieval\model" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\20163926\Documents\TUe - Master - Year 2\Thesis\SuperGlobal\SuperGlobal\revisitop\roxford5k" />
-      <recent name="C:\Users\20163926\Documents\TUe - Master - Year 2\Thesis\SuperGlobal\SuperGlobal\revisitop" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\SimilarityImageRetrieval\model\SuperGlobal" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\SimilarityImageRetrieval\model\SAM\utils" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\model\SuperGlobal\test" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\dataloader" />
+      <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\model\SuperGlobal" />
     </key>
   </component>
   <component name="RunManager" selected="Python.ILIAS">
     <configuration name="ILIAS" type="PythonConfigurationType" factoryName="Python">
-      <module name="SuperGlobal" />
+      <module name="SimilarityImageRetrieval" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\brand\anaconda3\envs\SG\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\datasets TEST.DATASET 'ILIAS' TEST.EVALUATE True SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="check_sam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Similarity Image Retrieval" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,8 +125,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\revisitop TEST.DATASET 'ILIAS' TEST.EVALUATE True TEST.UPDATE_DATA False SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/SAM/check_sam.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -72,7 +135,7 @@
       <method v="2" />
     </configuration>
     <configuration name="groundtruth_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SuperGlobal" />
+      <module name="Similarity Image Retrieval" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,20 +157,20 @@
       <method v="2" />
     </configuration>
     <configuration name="test (ILIAS)" type="PythonConfigurationType" factoryName="Python">
-      <module name="SuperGlobal" />
+      <module name="SimilarityImageRetrieval" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\brand\anaconda3\envs\SG\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\revisitop TEST.DATASET 'ILIAS_Test' TEST.EVALUATE True SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
+      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\datasets TEST.DATASET 'ILIAS_Test' TEST.EVALUATE True SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -116,7 +179,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="SuperGlobal" />
+      <module name="Similarity Image Retrieval" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +192,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\revisitop SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
+      <option name="PARAMETERS" value="MODEL.DEPTH 50 TEST.WEIGHTS .\weights\CVPR2022_CVNet_R50.pyth TEST.DATA_DIR .\datasets SupG.gemp True SupG.rgem True SupG.sgem True SupG.relup True SupG.rerank True SupG.onemeval False" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -182,20 +245,126 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in check_sam.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/model/SAM/check_sam.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Similarity Image Retrieval" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.test (ILIAS)" />
       <item itemvalue="Python.ILIAS" />
+      <item itemvalue="Python.test (ILIAS)" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.check_sam" />
       <item itemvalue="Python.groundtruth_creator" />
-      <item itemvalue="Shell Script.Test" />
+      <item itemvalue="Python tests.Python tests in check_sam.py" />
       <item itemvalue="Shell Script.Test (Custom)" />
       <item itemvalue="Shell Script.Test (No pooling)" />
+      <item itemvalue="Shell Script.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.check_sam" />
+        <item itemvalue="Python tests.Python tests in check_sam.py" />
         <item itemvalue="Python.groundtruth_creator" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7bb8055f9097-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.28238.29" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -208,265 +377,261 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
+          <line>92</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
+          <line>93</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
+          <line>96</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/MDescAug.py</url>
+          <line>104</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>19</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>20</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>21</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>24</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>31</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>36</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/reranking/RerankwMDA.py</url>
           <line>40</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/CVlearner.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/CVlearner.py</url>
           <line>57</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>61</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>86</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>106</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>135</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>160</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>185</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>203</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>219</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>276</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>205</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>187</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>169</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>137</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>108</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>88</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>62</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/rgem.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/coarse_retrieval/rgem.py</url>
           <line>32</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/gemp.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/coarse_retrieval/gemp.py</url>
           <line>18</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>26</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/RerankwMDA.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/CVNet_Rerank_model.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/CVNet_Rerank_model.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>221</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>136</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>164</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>161</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/reranking/MDescAug.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>265</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>272</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>298</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>269</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/model/resnet.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/resnet.py</url>
           <line>270</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>17</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>20</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>21</line>
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>23</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modules/coarse_retrieval/sgem.py</url>
+          <url>file://$PROJECT_DIR$/model/SuperGlobal/modules/coarse_retrieval/sgem.py</url>
           <line>24</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
