@@ -13,10 +13,9 @@ def test_DINO(model, device, cfg, gnd, data_dir, dataset, custom, update_data, u
     torch.backends.cudnn.benchmark = True
     model.eval()
 
-    text = '>> {}: Image Retrieval with DINOv2'.format(dataset)
-    print(text)
+    print(f'>> {dataset}: Image Retrieval with DINOv2')
 
-    # 1. Load Features
+    # 1. Load Features (Same as before)
     print("extract query features")
     Q_path = os.path.join(data_dir, dataset, "DINO_query_features.pt")
     if update_queries or not os.path.isfile(Q_path):
@@ -36,71 +35,94 @@ def test_DINO(model, device, cfg, gnd, data_dir, dataset, custom, update_data, u
     print(f"Query Shape: {Q.shape}")
     print(f"Database Shape: {X.shape}")
 
-    N_q, C, N_p = Q.shape
-    N_db = X.shape[0]
+    # Q and X are numpy arrays: (N, 768, 256)
+    # 768 = Dimensions, 256 = Patches (14x14 grid)
 
-    # --- MEMORY FIX: Keep Database on CPU ---
-    # We only move Q to GPU because it's small (1232 images)
-    # X stays on CPU (29k images) until needed
-    Q_flat = torch.from_numpy(Q).to(device)
-    X_flat = torch.from_numpy(X)  # Keep on CPU!
+    # ---------------------------------------------------------
+    # STAGE 1: GLOBAL SEARCH (Instant Filter)
+    # ---------------------------------------------------------
+    print(">> Stage 1: Global Descriptor Search...")
 
-    # Optional: Normalize on CPU to save GPU work
-    # (Doing this on CPU is safer for memory)
-    X_flat = F.normalize(X_flat, dim=1)
-    Q_flat = F.normalize(Q_flat, dim=1)
+    # Convert to Tensor (Keep X on CPU initially)
+    Q_tensor = torch.from_numpy(Q).to(device)
+    X_tensor = torch.from_numpy(X)
 
-    print("Running Batched Patch-to-Patch Search...")
+    # Compute Global Descriptors (Mean Pooling)
+    # Shape: (N, 768, 256) -> Mean dim 2 -> (N, 768)
+    Q_global = torch.mean(Q_tensor, dim=2)
+    Q_global = F.normalize(Q_global, p=2, dim=1)
 
-    all_scores = np.zeros((N_q, N_db), dtype=np.float32)
+    # Process DB in chunks to avoid GPU OOM during mean pooling
+    # (Though 30k vectors fits easily, being safe)
+    X_global = F.normalize(torch.mean(X_tensor.float(), dim=2), p=2, dim=1).to(device)
 
-    # Search Configuration
-    # We process the Database in chunks (batches) to fit in GPU memory
-    DB_BATCH_SIZE = 100  # 100 images * 256 patches fits easily in 8GB
+    # Global Similarity: (N_q, 768) @ (768, N_db) -> (N_q, N_db)
+    sim_global = torch.mm(Q_global, X_global.t())
 
-    for i in tqdm(range(N_q), desc="Queries"):
-        # Get one Query: (1, 256, 768) - Transpose for matmul
-        # Q_flat[i] is (768, 256). Transpose -> (256, 768)
-        q_patches = Q_flat[i].t().unsqueeze(0)  # (1, 256, 768)
+    # Get Top 100 Candidates for Reranking
+    TOP_K_RERANK = 1000
+    top_global_scores, top_global_indices = torch.topk(sim_global, k=TOP_K_RERANK, dim=1)
 
-        # Loop through Database in Batches
-        for j in range(0, N_db, DB_BATCH_SIZE):
-            # 1. Slice Batch
-            end = min(j + DB_BATCH_SIZE, N_db)
+    # ---------------------------------------------------------
+    # STAGE 2: LOCAL RERANKING (Detailed Patch Search)
+    # ---------------------------------------------------------
+    print(f">> Stage 2: Reranking Top-{TOP_K_RERANK} candidates with Patch Logic...")
 
-            # 2. Move Batch to GPU
-            # X_batch shape: (B, 768, 256)
-            x_batch = X_flat[j:end].to(device)
+    final_ranks = []
+    N_q = Q.shape[0]
 
-            # 3. Batched Matrix Multiplication
-            # (1, 256, 768) @ (B, 768, 256) -> (B, 256, 256)
-            # Result: [Batch, Query_Patch, DB_Patch] similarity
-            sim_matrix = torch.matmul(q_patches, x_batch)
+    for i in tqdm(range(N_q), desc="Reranking"):
+        # A. Prepare Query Patches
+        # Current Q: (1, 768, 256) -> Transpose for matmul -> (1, 256, 768)
+        # Q_tensor[i] is (768, 256)
+        q_patches = Q_tensor[i].t().unsqueeze(0)  # (1, 256, 768)
 
-            # 4. Max-Max Scoring (Optimized)
-            # Find best DB patch match for every Query patch
-            # Max over dim 2 (DB_Patches) -> (B, 256)
-            best_match_per_patch, _ = sim_matrix.max(dim=2)
+        # B. Get the Top 100 Candidates for this query
+        candidate_idxs = top_global_indices[i].cpu()
 
-            # Average Top 50% matches
-            k = int(N_p * 0.5)
-            # Topk on dim 1 (Query_Patches) -> (B, k)
-            top_k_vals, _ = torch.topk(best_match_per_patch, k, dim=1)
+        # C. Fetch ONLY those 100 images from the CPU Database
+        # X_tensor is (N_db, 768, 256) -> Slice -> (100, 768, 256)
+        db_candidates = X_tensor[candidate_idxs].to(device)
 
-            # Mean score for each image in batch -> (B,)
-            batch_scores = top_k_vals.mean(dim=1)
+        # D. Batched Matrix Multiplication (Small Batch of 100)
+        # (1, 256, 768) @ (100, 768, 256) -> (100, 256, 256)
+        sim_matrix = torch.matmul(q_patches, db_candidates)
 
-            # 5. Store Results
-            all_scores[i, j:end] = batch_scores.cpu().numpy()
+        # E. Max-Max Scoring (Same logic as your original code)
+        # Max over DB patches (dim 2) -> (100, 256)
+        best_match_per_patch, _ = sim_matrix.max(dim=2)
 
-    # Rank Results
-    ranks = np.argsort(-all_scores, axis=1).T
+        # Top 50% of query patches
+        k_patches = int(Q.shape[2] * 0.5)
+        top_k_vals, _ = torch.topk(best_match_per_patch, k_patches, dim=1)
 
+        # Mean score -> (100,)
+        local_scores = top_k_vals.mean(dim=1)
+
+        # F. Re-Sort the Top 100
+        # Sort descending based on new local scores
+        local_sort_order = torch.argsort(local_scores, descending=True)
+
+        # Map back to original Database Indices
+        final_top_100_indices = candidate_idxs[local_sort_order.cpu()]
+
+        # G. Append the rest of the list (Ranks 101 to End)
+        # We trust the global order for everything past rank 100
+        global_sort_order = torch.argsort(sim_global[i], descending=True).cpu()
+        rest_indices = global_sort_order[TOP_K_RERANK:]
+
+        # Concatenate: [Best 100 (Reranked)] + [Rest (Global Order)]
+        full_rank_list = torch.cat([final_top_100_indices, rest_indices])
+
+        final_ranks.append(full_rank_list.numpy())
+
+    ranks = np.array(final_ranks).T
+
+    # Evaluation
     if True:
         ks = [10, 25, 100]
         if not custom:
             (mapE, _, _, _), (mapM, _, _, _), (mapH, _, _, _) = test_revisitop(cfg, ks, [ranks, ranks, ranks])
-
             print('Retrieval results {}: mAP E: {}, M: {}, H: {}'.format(dataset, np.around(mapE * 100, decimals=2),
                                                                          np.around(mapM * 100, decimals=2),
                                                                          np.around(mapH * 100, decimals=2)))
