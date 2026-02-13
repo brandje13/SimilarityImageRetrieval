@@ -9,8 +9,10 @@ from config import cfg as c
 from model.SAM import SAM_tester
 from model.DINOv2 import DINO_tester
 from utils.config_gnd import config_gnd
+from utils.evaluate_final import evaluate_final
 from utils.groundtruth import create_groundtruth_from_txt, create_groundtruth
 from utils.SIR_topk import retrieve_and_print_top_k
+from utils.merge_results import merge_results
 
 
 def main():
@@ -47,8 +49,14 @@ def main():
     DINO_ranks = DINO_tester.__main__(gnd, cfg)
     DINO_top = retrieve_and_print_top_k(cfg, DINO_ranks, top_k, True)
 
-    # TODO: Union or Intersection
+    models = [['SuperGlobal', SG_top], ['DINOv2', DINO_top]]
 
+    results_union = merge_results(cfg, models, 'union')
+    results_intersection = merge_results(cfg, models, 'intersection')
+
+    # TODO: Evaluate final set
+    evaluate_final(cfg, models, results_union, 'union')
+    evaluate_final(cfg, models, results_intersection, 'intersection')
 
     # TODO: Show final set
 
