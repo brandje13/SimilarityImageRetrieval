@@ -16,7 +16,7 @@ from model.SigLIP import SigLIP_tester
 
 from utils.config_gnd import config_gnd
 from utils.evaluate_final import evaluate_final
-from utils.groundtruth import create_groundtruth_from_txt, create_groundtruth
+from utils.groundtruth import create_groundtruth_from_txt, create_groundtruth, create_groundtruth_imagenet10
 from utils.SIR_topk import retrieve_top_k, save_merged_results
 from utils.merge_results import merge_results
 
@@ -42,6 +42,9 @@ def main():
     elif c.TEST.DATASET in ['roxford5k', 'rparis6k']:
         gnd = f'gnd_{c.TEST.DATASET}.json'
         create_groundtruth_from_txt(c.TEST.DATA_DIR, c.TEST.DATASET)
+    elif c.TEST.DATASET == 'ImageNet-10':
+        gnd = f'gnd_{c.TEST.DATASET}.json'
+        create_groundtruth_imagenet10(c.TEST.DATA_DIR, c.TEST.DATASET)
     elif not c.TEST.DATASET == "":
         query_paths = [os.path.join(c.TEST.DATA_DIR, c.TEST.DATASET, "queries", i)
                        for i in os.listdir(os.path.join(c.TEST.DATA_DIR, c.TEST.DATASET, "queries"))]
@@ -93,6 +96,7 @@ def main():
         print(f"\n--- Executing {display_name} ---")
         tester = TESTER_REGISTRY[family]
 
+        c.freeze()
         ranks, map_score = tester.__main__(gnd, cfg)
         top_k_data = retrieve_top_k(cfg, ranks, c.TEST.TOP_K, family, False)
 

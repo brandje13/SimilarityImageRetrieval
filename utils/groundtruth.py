@@ -133,3 +133,81 @@ def create_groundtruth_from_txt(dir_path, dataset):
         json.dump(data, json_file, indent=4)
 
     return data
+
+
+def create_groundtruth_imagenet10(dir_path, dataset):
+    """
+    Creates a ground truth JSON file based on the flat ImageNet-10 Active Learning structure.
+    - Database images: Sitting directly in the dataset root (e.g., Category_1_Global/*.jpg)
+    - Queries: Sitting in the 'queries' subfolder.
+    - Text: Extracted from a paired .txt file in the queries folder, or falls back to a template.
+    """
+    data = {'imlist': [], 'qimlist': [], 'gnd': [], 'path': os.path.join(dir_path, dataset)}
+    query_info = {}
+
+    target_classes = {
+        "n02128385": "Leopard", "n02128757": "Snow Leopard",
+        "n02130308": "Cheetah", "n02129604": "Tiger", "n02129165": "Lion",
+        "n02114367": "Timber Wolf", "n02114548": "Arctic Wolf",
+        "n02114855": "Coyote", "n02117135": "Hyena", "n02116738": "African Hunting Dog"
+    }
+
+    base_path = os.path.join(dir_path, dataset)
+    queries_path = os.path.join(base_path, "queries")
+
+    # 1. Populate the Database (imlist) from the flat category root
+    # Note: os.path.isfile ensures we don't accidentally append the 'queries' folder
+    for img in sorted(os.listdir(base_path)):
+        if img.lower().endswith(('.jpg', '.jpeg', '.png')) and os.path.isfile(os.path.join(base_path, img)):
+            data['imlist'].append(img)
+
+    # 2. Process Queries and Inject Text Modality
+    if os.path.exists(queries_path):
+        for q_img in sorted(os.listdir(queries_path)):
+            if q_img.lower().endswith(('.jpg', '.jpeg', '.png')):
+                q_rel_path = os.path.join("queries", q_img).replace('\\', '/')
+                data['qimlist'].append(q_rel_path)
+
+                # Extract the WNID dynamically (e.g., n02128757 from n02128757_mistake1.jpg)
+                wnid = next((w for w in target_classes.keys() if w in q_img), q_img.split('_')[0])
+
+                # Find all true positive matches in the database using the clean WNID
+                ok_matches = [img for img in data['imlist'] if wnid in img]
+
+                # Retrieve BBox dimensions (Default to full image for ImageNet)
+                try:
+                    w, h = Image.open(os.path.join(queries_path, q_img)).size
+                except Exception:
+                    w, h = 224, 224
+
+                    # ---------------------------------------------------------
+                # TEXTUAL DESCRIPTION LOGIC (Crucial for SigLIP)
+                # ---------------------------------------------------------
+                text_query = ""
+                txt_file_path = os.path.join(queries_path, os.path.splitext(q_img)[0] + '.txt')
+
+                # If you wrote a custom query description (e.g., n02128757_mistake1.txt), use it.
+                if os.path.exists(txt_file_path):
+                    with open(txt_file_path, 'r', encoding='utf-8') as f:
+                        text_query = f.read().strip()
+                else:
+                    # Fallback template if a text file hasn't been written yet
+                    class_name = target_classes.get(wnid, "animal")
+                    text_query = f"A photo of a {class_name}"
+
+                query_info[q_rel_path] = {
+                    'query': q_rel_path,
+                    'bbx': [0, 0, w, h],
+                    'text': text_query,
+                    'ok': ok_matches,
+                    'good': [],
+                    'junk': []
+                }
+                data['gnd'].append(query_info[q_rel_path])
+
+    # 3. Save the RevisitOP-compatible JSON
+    output_file = os.path.join(base_path, f'gnd_{dataset}.json')
+    with open(output_file, 'w') as json_file:
+        json.dump(data, json_file, indent=4)
+
+    return data
