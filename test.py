@@ -54,7 +54,7 @@ def main():
 
     ensemble_results = []
 
-    for model_cfg in c.ACTIVE_MODELS:
+    for model_cfg in c.TEST.ACTIVE_MODELS:
         family = model_cfg["family"]
         if family not in TESTER_REGISTRY:
             print(f"[!] Warning: '{family}' is not in the registry. Skipping.")
@@ -102,7 +102,7 @@ def main():
         print("[!] No models executed successfully. Exiting.")
         sys.exit(1)
 
-    mode = c.FUSION_MODE
+    mode = c.TEST.FUSION_MODE
     print(f"\n--- Fusing and Evaluating Mode: {mode.upper()} ---")
     merged = merge_results(cfg, ensemble_results, mode)
     save_merged_results(cfg, merged, ensemble_results, mode)

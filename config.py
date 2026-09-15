@@ -46,6 +46,12 @@ _C.TEST.UPDATE_QUERIES = False
 _C.TEST.EVALUATE = True
 _C.TEST.TOP_K = 10
 _C.TEST.WEIGHTS = "./weights/CVPR2022_CVNet_R101.pyth"
+_C.TEST.FUSION_MODE = "intersection"
+_C.TEST.ACTIVE_MODELS = [
+    {"family": "SuperGlobal", "weight": r".\weights\CVPR2022_CVNet_R101.pyth"},
+    {"family": "DINOv2", "weight": "vit_giant_patch14_dinov2.lvd142m", "resolution": 224},
+    {"family": "SigLIP", "weight": "google/siglip-so400m-patch14-384", "resolution": 384}
+    ]
 
 _C.DATA_LOADER = CfgNode()
 _C.DATA_LOADER.NUM_WORKERS = 16
@@ -86,17 +92,6 @@ _C.ConvNeXtV2 = CfgNode()
 _C.ConvNeXtV2.TOP_M = -1
 _C.ConvNeXtV2.WEIGHTS = "convnextv2_large"
 _C.ConvNeXtV2.RESOLUTION = 224
-
-# ------------------------------------------------------------------------------------ #
-# Active Models & Fusion for test.py Execution
-# ------------------------------------------------------------------------------------ #
-_C.FUSION_MODE = "intersection"
-
-_C.ACTIVE_MODELS = [
-    {"family": "SuperGlobal", "weight": r".\weights\CVPR2022_CVNet_R101.pyth"},
-    {"family": "DINOv2", "weight": "vit_giant_patch14_dinov2.lvd142m", "resolution": 224},
-    {"family": "SigLIP", "weight": "google/siglip-so400m-patch14-384", "resolution": 384}
-]
 
 _C.register_deprecated_key("PREC_TIME.BATCH_SIZE")
 _C.register_deprecated_key("PREC_TIME.ENABLED")

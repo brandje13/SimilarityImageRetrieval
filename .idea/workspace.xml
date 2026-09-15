@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/ILIAS/gnd_ILIAS.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ILIAS/gnd_ILIAS.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/ILIAS_Test/gnd_ILIAS_Test.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/ILIAS_Test/gnd_ILIAS_Test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="C:\Users\brand\Documents\TUe Master\Thesis\Superglobal\model\SuperGlobal" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.grid_search">
+  <component name="RunManager" selected="Python.test (ILIAS)">
     <configuration name="ILIAS" type="PythonConfigurationType" factoryName="Python">
       <module name="SimilarityImageRetrieval" />
       <option name="ENV_FILES" value="" />
@@ -250,7 +249,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="TEST.DATASET 'ILIAS_Test' TEST.EVALUATE True TEST.UPDATE_DATA False TEST.UPDATE_QUERIES False" />
+      <option name="PARAMETERS" value="TEST.DATASET 'ILIAS_Test' TEST.EVALUATE True TEST.UPDATE_DATA False TEST.UPDATE_QUERIES False TEST.ACTIVE_MODELS &quot;[{'family': 'ConvNeXtV2', 'weight': 'convnextv2_atto', 'resolution': 224}, {'family': 'DINOv2', 'weight': 'vit_small_patch14_dinov2.lvd142m', 'resolution': 224, 'm': 100}, {'family': 'CLIP', 'weight': 'openai/clip-vit-base-patch32', 'resolution': 224}]&quot; TEST.FUSION_MODE 'majority'" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
