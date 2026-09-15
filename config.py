@@ -86,26 +86,38 @@ _C.ConvNeXtV2 = CfgNode()
 _C.ConvNeXtV2.TOP_M = -1
 _C.ConvNeXtV2.WEIGHTS = "convnextv2_large"
 _C.ConvNeXtV2.RESOLUTION = 224
+
 # ------------------------------------------------------------------------------------ #
+# Active Models & Fusion for test.py Execution
+# ------------------------------------------------------------------------------------ #
+_C.FUSION_MODE = "intersection"
+
+_C.ACTIVE_MODELS = [
+    {"family": "SuperGlobal", "weight": r".\weights\CVPR2022_CVNet_R101.pyth"},
+    {"family": "DINOv2", "weight": "vit_giant_patch14_dinov2.lvd142m", "resolution": 224},
+    {"family": "SigLIP", "weight": "google/siglip-so400m-patch14-384", "resolution": 384}
+]
 
 _C.register_deprecated_key("PREC_TIME.BATCH_SIZE")
 _C.register_deprecated_key("PREC_TIME.ENABLED")
+
 
 def dump_cfg():
     cfg_file = os.path.join(_C.OUT_DIR, _C.CFG_DEST)
     with open(cfg_file, "w") as f:
         _C.dump(stream=f)
 
+
 def load_cfg(out_dir, cfg_dest="config.yaml"):
     cfg_file = os.path.join(out_dir, cfg_dest)
     _C.merge_from_file(cfg_file)
 
+
 def load_cfg_fom_args(description="Config file options."):
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument("opts", default=None, nargs=argparse.REMAINDER)
-    
+
     args = parser.parse_args()
-    
-    # Only attempt to merge overrides if the user actually provided them
+
     if args.opts:
         _C.merge_from_list(args.opts)
