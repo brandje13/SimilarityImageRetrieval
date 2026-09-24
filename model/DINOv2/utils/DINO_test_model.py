@@ -102,6 +102,10 @@ def test_DINO(model, device, cfg, gnd, data_dir, dataset, res, custom, update_da
 
             X_global = F.normalize(X_global, p=2, dim=1)
 
+    if top_m_rerank > num_db:
+        print(f">> Warning: top_m_rerank ({top_m_rerank}) exceeds number of database images ({num_db}). Adjusting to {num_db}.")
+        top_m_rerank = num_db
+
     print(">> Stage 1: Global Descriptor Search...")
 
     sim_global = torch.mm(Q_global, X_global.t())

@@ -3,7 +3,15 @@
 import os
 import json
 
-DATASETS = ['roxford5k', 'rparis6k', 'revisitop1m', "ILIAS", "ILIAS_Test"]
+DATASETS = ['roxford5k', 'rparis6k', 'revisitop1m', "ILIAS", "ILIAS_Test",
+            "ImageNet10_Category_1_Global",
+            "ImageNet10_Category_2_Starved",
+            "ImageNet10_Category_3_Context",
+            "ImageNet10_Category_4_Organic",
+            "ImageNet10_Category_5_Semantic",
+            "ImageNet10_Category_6a_Sanitize_HuntingDog",
+            "ImageNet10_Category_6b_Sanitize_ArcticWolf"
+            ]
 
 
 def config_gnd(dataset, dir_main, custom, gnd):

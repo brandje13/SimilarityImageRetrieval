@@ -2,7 +2,6 @@
 # refactored for dynamic ensemble parameterization
 import os
 import sys
-from tkfilebrowser import askopenfilenames, askopendirname
 
 import config as config
 from config import cfg as c
@@ -34,15 +33,10 @@ def main():
     config.load_cfg_fom_args("Execute Dynamic Image Retrieval Ensemble")
     c.NUM_GPUS = 1
 
-    if c.TEST.CUSTOM:
-        query_paths = askopenfilenames()
-        data_dir = askopendirname()
-        create_groundtruth(query_paths, data_dir, c.TEST.DATASET)
-        gnd = 'custom.json'
-    elif c.TEST.DATASET in ['roxford5k', 'rparis6k']:
+    if c.TEST.DATASET in ['roxford5k', 'rparis6k']:
         gnd = f'gnd_{c.TEST.DATASET}.json'
         create_groundtruth_from_txt(c.TEST.DATA_DIR, c.TEST.DATASET)
-    elif c.TEST.DATASET == 'ImageNet-10':
+    elif 'ImageNet10' in c.TEST.DATASET:
         gnd = f'gnd_{c.TEST.DATASET}.json'
         create_groundtruth_imagenet10(c.TEST.DATA_DIR, c.TEST.DATASET)
     elif not c.TEST.DATASET == "":
@@ -101,6 +95,7 @@ def main():
         top_k_data = retrieve_top_k(cfg, ranks, c.TEST.TOP_K, family, False)
 
         ensemble_results.append([display_name, top_k_data])
+        c.defrost()
 
     if not ensemble_results:
         print("[!] No models executed successfully. Exiting.")

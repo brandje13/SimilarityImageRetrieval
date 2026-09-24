@@ -138,72 +138,100 @@ def create_groundtruth_from_txt(dir_path, dataset):
 def create_groundtruth_imagenet10(dir_path, dataset):
     """
     Creates a ground truth JSON file based on the flat ImageNet-10 Active Learning structure.
-    - Database images: Sitting directly in the dataset root (e.g., Category_1_Global/*.jpg)
-    - Queries: Sitting in the 'queries' subfolder.
-    - Text: Extracted from a paired .txt file in the queries folder, or falls back to a template.
+    Strictly maps true positives by reading the 'true_Class' string and isolates C/R edge cases.
     """
     data = {'imlist': [], 'qimlist': [], 'gnd': [], 'path': os.path.join(dir_path, dataset)}
     query_info = {}
 
     target_classes = {
-        "n02128385": "Leopard", "n02128757": "Snow Leopard",
-        "n02130308": "Cheetah", "n02129604": "Tiger", "n02129165": "Lion",
-        "n02114367": "Timber Wolf", "n02114548": "Arctic Wolf",
-        "n02114855": "Coyote", "n02117135": "Hyena", "n02116738": "African Hunting Dog"
+        "n02128385": "Leopard",
+        "n02128757": "Snow_Leopard",
+        "n02130308": "Cheetah",
+        "n02129604": "Tiger",
+        "n02129165": "Lion",
+        "n02114367": "Timber_Wolf",
+        "n02114548": "Arctic_Wolf",
+        "n02114855": "Coyote",
+        "n02117135": "Hyena",
+        "n02116738": "African_Hunting_Dog"
     }
 
     base_path = os.path.join(dir_path, dataset)
     queries_path = os.path.join(base_path, "queries")
 
+    print(f"[INFO] Building Ground Truth for: {dataset}")
+
     # 1. Populate the Database (imlist) from the flat category root
-    # Note: os.path.isfile ensures we don't accidentally append the 'queries' folder
     for img in sorted(os.listdir(base_path)):
         if img.lower().endswith(('.jpg', '.jpeg', '.png')) and os.path.isfile(os.path.join(base_path, img)):
             data['imlist'].append(img)
 
-    # 2. Process Queries and Inject Text Modality
+    # 2. Process Queries & Map True Positives
     if os.path.exists(queries_path):
         for q_img in sorted(os.listdir(queries_path)):
             if q_img.lower().endswith(('.jpg', '.jpeg', '.png')):
-                q_rel_path = os.path.join("queries", q_img).replace('\\', '/')
-                data['qimlist'].append(q_rel_path)
+                data['qimlist'].append(q_img)
+                query_name = os.path.splitext(q_img)[0]
 
-                # Extract the WNID dynamically (e.g., n02128757 from n02128757_mistake1.jpg)
-                wnid = next((w for w in target_classes.keys() if w in q_img), q_img.split('_')[0])
+                # STRICT FIX: Force match only on the "true_" half of the string
+                true_wnid = None
+                for wnid, class_name in target_classes.items():
+                    if f"true_{class_name}" in q_img:
+                        true_wnid = wnid
+                        break
 
-                # Find all true positive matches in the database using the clean WNID
-                ok_matches = [img for img in data['imlist'] if wnid in img]
+                # Fallback if filename lacks a class string
+                if not true_wnid:
+                    true_wnid = q_img.split('_')[0]
 
-                # Retrieve BBox dimensions (Default to full image for ImageNet)
-                try:
-                    w, h = Image.open(os.path.join(queries_path, q_img)).size
-                except Exception:
-                    w, h = 224, 224
+                # Start with all images matching the true WNID
+                ok_matches = [img for img in data['imlist'] if img.startswith(true_wnid)]
 
-                    # ---------------------------------------------------------
-                # TEXTUAL DESCRIPTION LOGIC (Crucial for SigLIP)
+                # CATEGORY FILTERING FIX: Restrict positives to the actual targeted edge cases
+                if "Category_1_Global" in dataset:
+                    ok_matches = [img for img in ok_matches if "_C_" in img]
+                elif "Category_5_Semantic" in dataset:
+                    ok_matches = [img for img in ok_matches if "_R_" in img]
+                # Categories 2, 3, and 4 keep the full list because they search for organic/starved standard images
+
+                # ---------------------------------------------------------
+                # BOUNDING BOX LOGIC
+                # ---------------------------------------------------------
+                bbx_path = os.path.join(queries_path, query_name + '_bbox.txt')
+                if os.path.exists(bbx_path):
+                    with open(bbx_path, 'r') as f:
+                        raw_bbx = list(map(float, f.read().strip().split()))
+                        x, y, w, h = raw_bbx
+                        bbx = [x, y, x + w, y + h]
+                else:
+                    try:
+                        w, h = Image.open(os.path.join(queries_path, q_img)).size
+                    except Exception:
+                        w, h = 224, 224
+                    bbx = [0, 0, w, h]
+
+                # ---------------------------------------------------------
+                # TEXTUAL DESCRIPTION LOGIC
                 # ---------------------------------------------------------
                 text_query = ""
-                txt_file_path = os.path.join(queries_path, os.path.splitext(q_img)[0] + '.txt')
+                txt_file_path = os.path.join(queries_path, query_name + '.txt')
 
-                # If you wrote a custom query description (e.g., n02128757_mistake1.txt), use it.
                 if os.path.exists(txt_file_path):
                     with open(txt_file_path, 'r', encoding='utf-8') as f:
                         text_query = f.read().strip()
                 else:
-                    # Fallback template if a text file hasn't been written yet
-                    class_name = target_classes.get(wnid, "animal")
-                    text_query = f"A photo of a {class_name}"
+                    display_name = target_classes.get(true_wnid, "animal").replace("_", " ")
+                    text_query = f"A photo of a {display_name}"
 
-                query_info[q_rel_path] = {
-                    'query': q_rel_path,
-                    'bbx': [0, 0, w, h],
+                query_info[q_img] = {
+                    'query': q_img,
+                    'bbx': bbx,
                     'text': text_query,
                     'ok': ok_matches,
                     'good': [],
                     'junk': []
                 }
-                data['gnd'].append(query_info[q_rel_path])
+                data['gnd'].append(query_info[q_img])
 
     # 3. Save the RevisitOP-compatible JSON
     output_file = os.path.join(base_path, f'gnd_{dataset}.json')
