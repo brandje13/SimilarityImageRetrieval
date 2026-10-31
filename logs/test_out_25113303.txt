@@ -1,0 +1,51 @@
+>> Starting NVMe data staging at Sat Aug  1 01:12:18 CEST 2026
+>> Data staging complete at Sat Aug  1 01:14:17 CEST 2026
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=0] VRAM Allocated: 0.00 MB | VRAM Reserved: 0.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 15.97, M: 22.67, H: 15.97
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=0] VRAM Allocated: 0.00 MB | VRAM Reserved: 786.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=0] VRAM Allocated: 0.00 MB | VRAM Reserved: 0.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 16.47, M: 23.55, H: 16.47
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=0] VRAM Allocated: 0.00 MB | VRAM Reserved: 856.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_atto | Res=224] VRAM Allocated: 0.00 MB | VRAM Reserved: 0.00 MB
+Loading ConvNeXt V2 (convnextv2_atto) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_atto)
+extract query features
+extract database features
+Query Shape: (1232, 320)
+Database Shape: (29715, 320)
+Retrieval results ILIAS: mAP: 5.61
+[Post-ConvNeXt: convnextv2_atto | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1326.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_femto | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_femto) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_femto)
+extract query features
+extract database features
+Query Shape: (1232, 384)
+Database Shape: (29715, 384)
+Retrieval results ILIAS: mAP: 6.26
+[Post-ConvNeXt: convnextv2_femto | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1354.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_pico | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_pico) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_pico)
+extract query features
+extract database features
+Query Shape: (1232, 512)
+Database Shape: (29715, 512)

@@ -1,0 +1,14 @@
+>> Loaded SigLIP SO400m 384 ranks from checkpoint.
+>> Loaded DINOv2 Giant 336 (M=1000) ranks from checkpoint.
+>> Loaded DINOv2 Giant 336 (M=2000) ranks from checkpoint.
+>> Loaded SuperGlobal CVNet_R101 (M=300) ranks from checkpoint.
+>> Skipping 2way_Pareto_336_M1000_K10 (Already completed at ./datasets/ILIAS_100k/output_2way_Pareto_336_M1000_K10)
+>> Skipping 3way_Controlled_336_M1000_K10 (Already completed at ./datasets/ILIAS_100k/output_3way_Controlled_336_M1000_K10)
+>> Skipping 3way_BestK10_336_M2000_K10 (Already completed at ./datasets/ILIAS_100k/output_3way_BestK10_336_M2000_K10)
+>> Skipping 3way_336_M2000_K50 (Already completed)
+
+--- Executing High-Res DINOv2 Giant reg4 518 (M=1000 Pareto Knee) ---
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS_100k: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+Initializing dataset object
+Extracting DINO features for db...

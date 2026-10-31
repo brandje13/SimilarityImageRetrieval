@@ -3,7 +3,7 @@
 import os
 import json
 
-DATASETS = ['roxford5k', 'rparis6k', 'revisitop1m', "ILIAS", "ILIAS_Test"]
+DATASETS = ['roxford5k', 'rparis6k', 'revisitop1m', "ILIAS", "ILIAS_Test", "ILIAS_100k"]
 
 
 def config_gnd(dataset, dir_main, custom, gnd):

@@ -14,7 +14,7 @@ def create_groundtruth(query_paths, dir_path, dataset):
         if img.endswith((".jpg", ".png", ".jpeg")):
             data['imlist'].append(img)
 
-    if all(os.path.isdir(path) for path in query_paths) and (dataset == "ILIAS" or dataset == "ILIAS_Test"):
+    if all(os.path.isdir(path) for path in query_paths) and (dataset == "ILIAS" or dataset == "ILIAS_Test" or dataset == "ILIAS_100k"):
         for path in query_paths:
             temp_queries = []
             class_pos_images = []

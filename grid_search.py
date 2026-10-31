@@ -228,8 +228,8 @@ def main():
         ('convnextv2_huge', 224)
     ]
 
-    GLOBAL_M_SEARCH = list(range(0, 100, 100))
-    DINO_M_SEARCH = list(range(0, 1000, 1000))
+    GLOBAL_M_SEARCH = list(range(0, 1100, 100))
+    DINO_M_SEARCH = list(range(0, 11000, 1000))
     TOP_K_SEARCH = [10, 50, 100]
 
     # ====================================================================================

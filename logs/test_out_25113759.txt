@@ -1,0 +1,2343 @@
+>> Starting NVMe data staging at Sat Aug  1 01:18:54 CEST 2026
+>> Data staging complete at Sat Aug  1 01:20:53 CEST 2026
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=0] VRAM Allocated: 0.00 MB | VRAM Reserved: 0.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 15.97, M: 22.67, H: 15.97
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=0] VRAM Allocated: 0.00 MB | VRAM Reserved: 786.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=100] VRAM Allocated: 0.00 MB | VRAM Reserved: 0.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.4, M: 22.52, H: 14.4
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=100] VRAM Allocated: 8.12 MB | VRAM Reserved: 5370.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=200] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.34, M: 22.63, H: 14.34
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=200] VRAM Allocated: 8.12 MB | VRAM Reserved: 9356.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=300] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.26, M: 22.48, H: 14.26
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=300] VRAM Allocated: 8.12 MB | VRAM Reserved: 13358.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=400] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.26, M: 22.55, H: 14.26
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=400] VRAM Allocated: 8.12 MB | VRAM Reserved: 17390.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=500] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.02, M: 22.28, H: 14.02
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=500] VRAM Allocated: 8.12 MB | VRAM Reserved: 21428.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=600] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.03, M: 22.19, H: 14.03
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=600] VRAM Allocated: 8.12 MB | VRAM Reserved: 25490.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=700] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 13.87, M: 22.04, H: 13.87
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=700] VRAM Allocated: 8.12 MB | VRAM Reserved: 29574.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=800] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 13.88, M: 22.03, H: 13.88
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=800] VRAM Allocated: 8.12 MB | VRAM Reserved: 33674.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=900] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 13.86, M: 22.04, H: 13.86
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=900] VRAM Allocated: 8.12 MB | VRAM Reserved: 37790.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R50.pyth | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R50)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 13.87, M: 22.1, H: 13.87
+[Post-SG: weights/CVPR2022_CVNet_R50.pyth | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 21228.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 16.47, M: 23.55, H: 16.47
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 876.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=100] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 15.4, M: 24.16, H: 15.4
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=100] VRAM Allocated: 8.12 MB | VRAM Reserved: 5440.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=200] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 15.13, M: 23.97, H: 15.13
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=200] VRAM Allocated: 8.12 MB | VRAM Reserved: 9430.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=300] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 15.1, M: 24.12, H: 15.1
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=300] VRAM Allocated: 8.12 MB | VRAM Reserved: 13432.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=400] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.96, M: 24.01, H: 14.96
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=400] VRAM Allocated: 8.12 MB | VRAM Reserved: 17464.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=500] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 15.05, M: 24.03, H: 15.05
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=500] VRAM Allocated: 8.12 MB | VRAM Reserved: 21502.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=600] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.98, M: 24.13, H: 14.98
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=600] VRAM Allocated: 8.12 MB | VRAM Reserved: 25564.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=700] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.84, M: 23.96, H: 14.84
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=700] VRAM Allocated: 8.12 MB | VRAM Reserved: 29648.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=800] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.71, M: 23.76, H: 14.71
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=800] VRAM Allocated: 8.12 MB | VRAM Reserved: 33748.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=900] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.66, M: 23.62, H: 14.66
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=900] VRAM Allocated: 8.12 MB | VRAM Reserved: 37864.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SG: weights/CVPR2022_CVNet_R101.pyth | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+=> creating CVNet_Rerank model
+>> ILIAS: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+extract database features
+perform global feature reranking
+Retrieval results ILIAS: mAP E: 14.61, M: 23.66, H: 14.61
+[Post-SG: weights/CVPR2022_CVNet_R101.pyth | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 21302.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_atto | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_atto) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_atto)
+extract query features
+extract database features
+Query Shape: (1232, 320)
+Database Shape: (29715, 320)
+Retrieval results ILIAS: mAP: 5.61
+[Post-ConvNeXt: convnextv2_atto | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1326.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_femto | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_femto) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_femto)
+extract query features
+extract database features
+Query Shape: (1232, 384)
+Database Shape: (29715, 384)
+Retrieval results ILIAS: mAP: 6.26
+[Post-ConvNeXt: convnextv2_femto | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1354.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_pico | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_pico) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_pico)
+extract query features
+extract database features
+Query Shape: (1232, 512)
+Database Shape: (29715, 512)
+Retrieval results ILIAS: mAP: 7.18
+[Post-ConvNeXt: convnextv2_pico | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1376.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_nano | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_nano) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_nano)
+extract query features
+extract database features
+Query Shape: (1232, 640)
+Database Shape: (29715, 640)
+Retrieval results ILIAS: mAP: 14.17
+[Post-ConvNeXt: convnextv2_nano | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1420.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_tiny | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_tiny) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_tiny)
+extract query features
+extract database features
+Query Shape: (1232, 768)
+Database Shape: (29715, 768)
+Retrieval results ILIAS: mAP: 16.08
+[Post-ConvNeXt: convnextv2_tiny | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1496.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_base | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_base) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_base)
+extract query features
+extract database features
+Query Shape: (1232, 1024)
+Database Shape: (29715, 1024)
+Retrieval results ILIAS: mAP: 19.2
+[Post-ConvNeXt: convnextv2_base | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1748.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_large | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_large) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_large)
+extract query features
+extract database features
+Query Shape: (1232, 1536)
+Database Shape: (29715, 1536)
+Retrieval results ILIAS: mAP: 22.0
+[Post-ConvNeXt: convnextv2_large | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 2262.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-ConvNeXt: convnextv2_huge | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading ConvNeXt V2 (convnextv2_huge) via timm...
+>> ILIAS: Pure Global Image Retrieval with ConvNeXt V2 (convnextv2_huge)
+extract query features
+extract database features
+Query Shape: (1232, 2816)
+Database Shape: (29715, 2816)
+Retrieval results ILIAS: mAP: 18.21
+[Post-ConvNeXt: convnextv2_huge | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 4226.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-MixVPR: resnet50_MixVPR] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading Official ResNet50 + MixVPR...
+>> ILIAS: Pure Global Image Retrieval with ResNet50-MixVPR
+extract query features
+extract database features
+Query Shape: (1232, 4096)
+Database Shape: (29715, 4096)
+Retrieval results ILIAS: mAP: 3.39
+[Post-MixVPR: resnet50_MixVPR] VRAM Allocated: 8.12 MB | VRAM Reserved: 1810.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-CLIP: openai/clip-vit-base-patch32 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading CLIP (openai/clip-vit-base-patch32) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with CLIP (openai/clip-vit-base-patch32)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 512)
+Database (Image) Shape: (29715, 512)
+Retrieval results ILIAS: mAP: 13.37
+[Post-CLIP: openai/clip-vit-base-patch32 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1950.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-CLIP: openai/clip-vit-base-patch16 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading CLIP (openai/clip-vit-base-patch16) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with CLIP (openai/clip-vit-base-patch16)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 512)
+Database (Image) Shape: (29715, 512)
+Retrieval results ILIAS: mAP: 19.54
+[Post-CLIP: openai/clip-vit-base-patch16 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 1950.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-CLIP: openai/clip-vit-large-patch14 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading CLIP (openai/clip-vit-large-patch14) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with CLIP (openai/clip-vit-large-patch14)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 768)
+Database (Image) Shape: (29715, 768)
+Retrieval results ILIAS: mAP: 28.22
+[Post-CLIP: openai/clip-vit-large-patch14 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 3028.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-CLIP: openai/clip-vit-large-patch14-336 | Res=336] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading CLIP (openai/clip-vit-large-patch14-336) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with CLIP (openai/clip-vit-large-patch14-336)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 768)
+Database (Image) Shape: (29715, 768)
+Retrieval results ILIAS: mAP: 34.65
+[Post-CLIP: openai/clip-vit-large-patch14-336 | Res=336] VRAM Allocated: 8.12 MB | VRAM Reserved: 3048.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-CLIP: laion/CLIP-ViT-L-14-laion2B-s32B-b82K | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading CLIP (laion/CLIP-ViT-L-14-laion2B-s32B-b82K) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with CLIP (laion/CLIP-ViT-L-14-laion2B-s32B-b82K)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 768)
+Database (Image) Shape: (29715, 768)
+Retrieval results ILIAS: mAP: 31.61
+[Post-CLIP: laion/CLIP-ViT-L-14-laion2B-s32B-b82K | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 3028.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-CLIP: laion/CLIP-ViT-H-14-laion2B-s32B-b79K | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading CLIP (laion/CLIP-ViT-H-14-laion2B-s32B-b79K) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with CLIP (laion/CLIP-ViT-H-14-laion2B-s32B-b79K)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 1024)
+Database (Image) Shape: (29715, 1024)
+Retrieval results ILIAS: mAP: 39.31
+[Post-CLIP: laion/CLIP-ViT-H-14-laion2B-s32B-b79K | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 5292.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-CLIP: laion/CLIP-ViT-bigG-14-laion2B-39B-b160k | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading CLIP (laion/CLIP-ViT-bigG-14-laion2B-39B-b160k) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with CLIP (laion/CLIP-ViT-bigG-14-laion2B-39B-b160k)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 1280)
+Database (Image) Shape: (29715, 1280)
+Retrieval results ILIAS: mAP: 42.05
+[Post-CLIP: laion/CLIP-ViT-bigG-14-laion2B-39B-b160k | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 11524.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SigLIP: google/siglip-base-patch16-224 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading SigLIP (google/siglip-base-patch16-224) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with SigLIP (google/siglip-base-patch16-224)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 768)
+Database (Image) Shape: (29715, 768)
+Retrieval results ILIAS: mAP: 34.04
+[Post-SigLIP: google/siglip-base-patch16-224 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 2224.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SigLIP: google/siglip-base-patch16-256 | Res=256] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading SigLIP (google/siglip-base-patch16-256) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with SigLIP (google/siglip-base-patch16-256)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 768)
+Database (Image) Shape: (29715, 768)
+Retrieval results ILIAS: mAP: 35.2
+[Post-SigLIP: google/siglip-base-patch16-256 | Res=256] VRAM Allocated: 8.12 MB | VRAM Reserved: 2224.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SigLIP: google/siglip-base-patch16-384 | Res=384] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading SigLIP (google/siglip-base-patch16-384) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with SigLIP (google/siglip-base-patch16-384)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 768)
+Database (Image) Shape: (29715, 768)
+Retrieval results ILIAS: mAP: 41.87
+[Post-SigLIP: google/siglip-base-patch16-384 | Res=384] VRAM Allocated: 8.12 MB | VRAM Reserved: 2224.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SigLIP: google/siglip-large-patch16-256 | Res=256] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading SigLIP (google/siglip-large-patch16-256) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with SigLIP (google/siglip-large-patch16-256)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 1024)
+Database (Image) Shape: (29715, 1024)
+Retrieval results ILIAS: mAP: 42.96
+[Post-SigLIP: google/siglip-large-patch16-256 | Res=256] VRAM Allocated: 8.12 MB | VRAM Reserved: 3896.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SigLIP: google/siglip-large-patch16-384 | Res=384] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading SigLIP (google/siglip-large-patch16-384) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with SigLIP (google/siglip-large-patch16-384)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 1024)
+Database (Image) Shape: (29715, 1024)
+Retrieval results ILIAS: mAP: 51.79
+[Post-SigLIP: google/siglip-large-patch16-384 | Res=384] VRAM Allocated: 8.12 MB | VRAM Reserved: 3904.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SigLIP: google/siglip-so400m-patch14-224 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading SigLIP (google/siglip-so400m-patch14-224) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with SigLIP (google/siglip-so400m-patch14-224)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 1152)
+Database (Image) Shape: (29715, 1152)
+Retrieval results ILIAS: mAP: 29.48
+[Post-SigLIP: google/siglip-so400m-patch14-224 | Res=224] VRAM Allocated: 8.12 MB | VRAM Reserved: 5234.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-SigLIP: google/siglip-so400m-patch14-384 | Res=384] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading SigLIP (google/siglip-so400m-patch14-384) via HuggingFace...
+>> ILIAS: Pure Text-to-Image Retrieval with SigLIP (google/siglip-so400m-patch14-384)
+extract query features (Text)
+extract database features (Images)
+Query (Text) Shape: (1232, 1152)
+Database (Image) Shape: (29715, 1152)
+Retrieval results ILIAS: mAP: 53.42
+[Post-SigLIP: google/siglip-so400m-patch14-384 | Res=384] VRAM Allocated: 8.12 MB | VRAM Reserved: 5234.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 7.75
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 10.8
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 12.82
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 13.05
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 8.83
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 12.14
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 12.26
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 16.61
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 11.83
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 16.9
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 12.98
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+Retrieval results ILIAS: mAP: 16.1
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=0] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 90.19 GB | VRAM Target: 33.57 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 27.03
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 90.81 GB | VRAM Target: 33.30 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 36.6
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 90.80 GB | VRAM Target: 32.57 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 41.64
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 90.30 GB | VRAM Target: 29.81 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 42.38
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 90.09 GB | VRAM Target: 33.57 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 28.83
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 90.22 GB | VRAM Target: 33.30 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 38.87
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 90.11 GB | VRAM Target: 32.56 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 43.32
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 89.89 GB | VRAM Target: 29.81 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 49.39
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 89.79 GB | VRAM Target: 32.34 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.28
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 89.82 GB | VRAM Target: 29.47 GB
+>> RAM Mode Batching: CPU Chunk = 1000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 52.98
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 89.76 GB | VRAM Target: 28.64 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 48.98
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.74 GB | VRAM Target: 28.64 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 52.58
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=1000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.72 GB | VRAM Target: 33.56 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 28.74
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 88.09 GB | VRAM Target: 33.29 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 38.73
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 88.15 GB | VRAM Target: 32.55 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 44.11
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.95 GB | VRAM Target: 29.80 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 44.74
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.87 GB | VRAM Target: 33.56 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 30.57
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.96 GB | VRAM Target: 33.29 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 40.91
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.92 GB | VRAM Target: 32.55 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.13
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.85 GB | VRAM Target: 29.79 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 50.99
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.61 GB | VRAM Target: 32.33 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 50.85
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.49 GB | VRAM Target: 29.46 GB
+>> RAM Mode Batching: CPU Chunk = 2000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 55.05
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.29 GB | VRAM Target: 28.63 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 52.49
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.71 GB | VRAM Target: 28.63 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 54.93
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=2000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.00 GB | VRAM Target: 33.55 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 29.42
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 87.10 GB | VRAM Target: 33.28 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 39.7
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.94 GB | VRAM Target: 32.54 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 45.42
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.84 GB | VRAM Target: 29.79 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 45.74
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.77 GB | VRAM Target: 33.54 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 31.57
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.84 GB | VRAM Target: 33.27 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 41.71
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.85 GB | VRAM Target: 32.54 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 47.53
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.95 GB | VRAM Target: 29.78 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 51.44
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.85 GB | VRAM Target: 32.32 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 53.14
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.90 GB | VRAM Target: 29.45 GB
+>> RAM Mode Batching: CPU Chunk = 3000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 55.98
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.85 GB | VRAM Target: 28.62 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 53.92
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-3000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.63 GB | VRAM Target: 28.61 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 56.11
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=3000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.58 GB | VRAM Target: 33.53 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 29.78
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.57 GB | VRAM Target: 33.26 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 40.16
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.52 GB | VRAM Target: 32.53 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.01
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.49 GB | VRAM Target: 29.78 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.29
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.30 GB | VRAM Target: 33.53 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 32.03
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.37 GB | VRAM Target: 33.26 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 42.05
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.28 GB | VRAM Target: 32.53 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 48.34
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.44 GB | VRAM Target: 29.77 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 51.71
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.18 GB | VRAM Target: 32.30 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 54.29
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.33 GB | VRAM Target: 29.44 GB
+>> RAM Mode Batching: CPU Chunk = 4000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 56.57
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.29 GB | VRAM Target: 28.61 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 54.87
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-4000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.80 GB | VRAM Target: 28.60 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 56.67
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=4000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.85 GB | VRAM Target: 33.52 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 30.07
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 86.02 GB | VRAM Target: 33.25 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 40.39
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.94 GB | VRAM Target: 32.52 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.37
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.89 GB | VRAM Target: 29.76 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.71
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.82 GB | VRAM Target: 33.52 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 32.18
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.79 GB | VRAM Target: 33.25 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 42.24
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.84 GB | VRAM Target: 32.52 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 48.94
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.91 GB | VRAM Target: 29.76 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 51.9
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.62 GB | VRAM Target: 32.29 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 55.06
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.76 GB | VRAM Target: 29.42 GB
+>> RAM Mode Batching: CPU Chunk = 5000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 56.96
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.73 GB | VRAM Target: 28.59 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 55.5
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-5000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.10 GB | VRAM Target: 28.59 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 57.21
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=5000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.18 GB | VRAM Target: 33.51 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 30.25
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.15 GB | VRAM Target: 33.24 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 40.63
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.12 GB | VRAM Target: 32.51 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.58
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.27 GB | VRAM Target: 29.75 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 47.04
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.20 GB | VRAM Target: 33.51 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 32.32
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.18 GB | VRAM Target: 33.24 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 42.34
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.17 GB | VRAM Target: 32.51 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 49.26
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.30 GB | VRAM Target: 29.75 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 52.1
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.01 GB | VRAM Target: 32.28 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 55.66
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.11 GB | VRAM Target: 29.41 GB
+>> RAM Mode Batching: CPU Chunk = 6000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 57.28
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 85.09 GB | VRAM Target: 28.58 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 55.89
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-6000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.68 GB | VRAM Target: 28.58 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 57.64
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=6000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.64 GB | VRAM Target: 33.50 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 30.35
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.62 GB | VRAM Target: 33.23 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 40.67
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.68 GB | VRAM Target: 32.50 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.68
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.69 GB | VRAM Target: 29.74 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 47.4
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.61 GB | VRAM Target: 33.50 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 32.43
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.63 GB | VRAM Target: 33.23 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 42.4
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.48 GB | VRAM Target: 32.49 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 49.4
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.50 GB | VRAM Target: 29.74 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 52.23
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.47 GB | VRAM Target: 32.27 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 55.98
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.48 GB | VRAM Target: 29.40 GB
+>> RAM Mode Batching: CPU Chunk = 7000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 57.44
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.43 GB | VRAM Target: 28.57 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 56.23
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-7000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.99 GB | VRAM Target: 28.57 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 57.77
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=7000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.83 GB | VRAM Target: 33.49 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 30.45
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.84 GB | VRAM Target: 33.22 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 40.71
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.83 GB | VRAM Target: 32.48 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.74
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 84.03 GB | VRAM Target: 29.73 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 47.49
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.98 GB | VRAM Target: 33.49 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 32.51
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.90 GB | VRAM Target: 33.22 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 42.42
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.79 GB | VRAM Target: 32.48 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 49.54
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.86 GB | VRAM Target: 29.72 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 52.3
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.75 GB | VRAM Target: 32.26 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 56.28
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.84 GB | VRAM Target: 29.39 GB
+>> RAM Mode Batching: CPU Chunk = 8000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 57.56
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.80 GB | VRAM Target: 28.56 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 56.53
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-8000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 80.00 GB | VRAM Target: 28.56 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 57.9
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=8000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.30 GB | VRAM Target: 33.48 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 30.48
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.29 GB | VRAM Target: 33.21 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 40.73
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 83.02 GB | VRAM Target: 32.47 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.8
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.00 GB | VRAM Target: 29.72 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 47.61
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 81.08 GB | VRAM Target: 33.47 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 32.58
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 80.98 GB | VRAM Target: 33.20 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 42.43
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 80.72 GB | VRAM Target: 32.47 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 49.6
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 81.80 GB | VRAM Target: 29.71 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 52.33
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.08 GB | VRAM Target: 32.25 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 56.5
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 81.20 GB | VRAM Target: 29.38 GB
+>> RAM Mode Batching: CPU Chunk = 9000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 57.68
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 81.67 GB | VRAM Target: 28.55 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 56.67
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-9000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.83 GB | VRAM Target: 28.54 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 58.11
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=9000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_dinov2.lvd142m)
+>> DB Size: 5.44 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.65 GB | VRAM Target: 33.46 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 30.49
+[Post-DINO: vit_small_patch14_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_dinov2.lvd142m)
+>> DB Size: 10.88 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.68 GB | VRAM Target: 33.19 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 40.77
+[Post-DINO: vit_base_patch14_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_dinov2.lvd142m)
+>> DB Size: 14.51 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.68 GB | VRAM Target: 32.46 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 46.84
+[Post-DINO: vit_large_patch14_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> DB Size: 21.76 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 256])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.72 GB | VRAM Target: 29.71 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 47.71
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_small_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 5.53 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 384, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.67 GB | VRAM Target: 33.46 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 32.64
+[Post-DINO: vit_small_patch14_reg4_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_base_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 11.05 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 768, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.51 GB | VRAM Target: 33.19 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 42.44
+[Post-DINO: vit_base_patch14_reg4_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 14.74 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.51 GB | VRAM Target: 32.46 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 49.69
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 22.10 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 260])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 80.63 GB | VRAM Target: 29.70 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 52.39
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_224 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_large_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 32.87 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1024, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.40 GB | VRAM Target: 32.23 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 56.71
+[Post-DINO: vit_large_patch14_reg4_dinov2.lvd142m_336 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> DB Size: 49.31 GB | Ultra-Fast RAM Mode: True
+>> Loading features and computing Global Descriptors...
+Database Shape: torch.Size([29715, 1536, 580])
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 82.50 GB | VRAM Target: 29.37 GB
+>> RAM Mode Batching: CPU Chunk = 10000, VRAM Chunk = 1000
+Retrieval results ILIAS: mAP: 57.74
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_336 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_dinov2.lvd142m_518.h5
+>> DB Size: 116.39 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1369)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 75.03 GB | VRAM Target: 28.54 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1914, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 56.94
+[Post-DINO: vit_giant_patch14_dinov2.lvd142m_518 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+[Pre-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Rerouted database read to local NVMe: /scratch-node/nvandenbrand.25113759/dino_db/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 116.73 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (29715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-10000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 78.68 GB | VRAM Target: 28.53 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS: mAP: 58.25
+[Post-DINO: vit_giant_patch14_reg4_dinov2.lvd142m_518 | M=10000] VRAM Allocated: 8.12 MB | VRAM Reserved: 20.00 MB
+Total active CUDA tensors in memory: 0
+Total identifiable VRAM held by active tensors: 0.00 MB
+>> Pre-calculating Top-K representations and stripping matrix bloat...
+>> Writing worker cache to local disk to bypass IPC pipe limits...
+
+============================================================
+FINAL COMBINATORIAL ANALYSIS (554367 combinations)
+============================================================
+>> Dispatching grid search to 12 CPU cores...
+
+****************************************
+CONFIGURATIONS MEETING TARGET (P>=0.20, R>=0.50)
+****************************************
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(10000), S:siglip-so400m-patch14-384 | P:23.37%, R:77.28%, F3:0.5782 | mAPs [G:0.00, L:0.58, S:0.53] | Time:18160.6s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(9000), S:siglip-so400m-patch14-384 | P:23.35%, R:77.21%, F3:0.5777 | mAPs [G:0.00, L:0.58, S:0.53] | Time:16328.7s
+[2-way | INTERSECTION] K:50 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(10000), S:siglip-so400m-patch14-384 | P:40.99%, R:66.53%, F3:0.5772 | mAPs [G:0.00, L:0.58, S:0.53] | Time:18160.6s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(8000), S:siglip-so400m-patch14-384 | P:23.30%, R:77.10%, F3:0.5767 | mAPs [G:0.00, L:0.58, S:0.53] | Time:14605.7s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(7000), S:siglip-so400m-patch14-384 | P:23.29%, R:77.08%, F3:0.5766 | mAPs [G:0.00, L:0.58, S:0.53] | Time:12802.8s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(6000), S:siglip-so400m-patch14-384 | P:23.26%, R:77.02%, F3:0.5761 | mAPs [G:0.00, L:0.58, S:0.53] | Time:10930.3s
+[2-way | INTERSECTION] K:50 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(9000), S:siglip-so400m-patch14-384 | P:40.94%, R:66.36%, F3:0.5757 | mAPs [G:0.00, L:0.58, S:0.53] | Time:16328.7s
+[2-way | INTERSECTION] K:50 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(10000), S:siglip-large-patch16-384 | P:40.72%, R:66.05%, F3:0.5748 | mAPs [G:0.00, L:0.58, S:0.52] | Time:18159.6s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(5000), S:siglip-so400m-patch14-384 | P:23.19%, R:76.84%, F3:0.5745 | mAPs [G:0.00, L:0.57, S:0.53] | Time:9169.1s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(10000), S:siglip-large-patch16-384 | P:23.15%, R:76.85%, F3:0.5743 | mAPs [G:0.00, L:0.58, S:0.52] | Time:18159.6s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(9000), S:siglip-large-patch16-384 | P:23.13%, R:76.78%, F3:0.5738 | mAPs [G:0.00, L:0.58, S:0.52] | Time:16327.7s
+[2-way | INTERSECTION] K:50 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(8000), S:siglip-so400m-patch14-384 | P:40.79%, R:66.08%, F3:0.5734 | mAPs [G:0.00, L:0.58, S:0.53] | Time:14605.7s
+[2-way | INTERSECTION] K:50 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(9000), S:siglip-large-patch16-384 | P:40.69%, R:65.86%, F3:0.5732 | mAPs [G:0.00, L:0.58, S:0.52] | Time:16327.7s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(7000), S:siglip-large-patch16-384 | P:23.09%, R:76.70%, F3:0.5730 | mAPs [G:0.00, L:0.58, S:0.52] | Time:12801.8s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(8000), S:siglip-large-patch16-384 | P:23.09%, R:76.68%, F3:0.5729 | mAPs [G:0.00, L:0.58, S:0.52] | Time:14604.7s
+[3-way | MAJORITY] K:50 | G:CVPR2022_CVNet_R101(300), L:vit_giant_patch14_reg4_dinov2.lvd142m_518(10000), S:siglip-so400m-patch14-384 | P:30.29%, R:70.86%, F3:0.5727 | mAPs [G:0.15, L:0.58, S:0.53] | Time:18180.4s
+[2-way | UNION] K:10 | G:None, L:vit_giant_patch14_reg4_dinov2.lvd142m_518(6000), S:siglip-large-patch16-384 | P:23.06%, R:76.64%, F3:0.5725 | mAPs [G:0.00, L:0.58, S:0.52] | Time:10929.3s
+[3-way | MAJORITY] K:50 | G:CVPR2022_CVNet_R101(200), L:vit_giant_patch14_reg4_dinov2.lvd142m_518(10000), S:siglip-so400m-patch14-384 | P:30.18%, R:70.87%, F3:0.5724 | mAPs [G:0.15, L:0.58, S:0.53] | Time:18180.2s
+[2-way | INTERSECTION] K:50 | G:None, L:vit_giant_patch14_dinov2.lvd142m_518(10000), S:siglip-so400m-patch14-384 | P:40.73%, R:65.42%, F3:0.5723 | mAPs [G:0.00, L:0.57, S:0.53] | Time:18172.4s
+[3-way | MAJORITY] K:50 | G:CVPR2022_CVNet_R101(800), L:vit_giant_patch14_reg4_dinov2.lvd142m_518(10000), S:siglip-so400m-patch14-384 | P:30.41%, R:70.78%, F3:0.5722 | mAPs [G:0.15, L:0.58, S:0.53] | Time:18180.8s
+
+>> Exporting all 554367 combinations to grid_search_ILIAS_1785883913.csv...
+>> Export complete! Data saved to /gpfs/work5/0/prjs2073/SimilarityImageRetrieval/grid_search_ILIAS_1785883913.csv

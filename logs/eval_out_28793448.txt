@@ -1,0 +1,357 @@
+
+--- Executing SigLIP (google/siglip-so400m-patch14-384) ---
+Loading SigLIP (google/siglip-so400m-patch14-384) via HuggingFace...
+>> ILIAS_100k: Pure Text-to-Image Retrieval with SigLIP (google/siglip-so400m-patch14-384)
+extract query features (Text)
+Initializing dataset object
+Extracting SigLIP features for query...
+Deleting dataset object.
+extract database features (Images)
+Initializing dataset object
+Extracting SigLIP features for db...
+Deleting dataset object.
+Query (Text) Shape: (1232, 1152)
+Database (Image) Shape: (104715, 1152)
+Retrieval results ILIAS_100k: mAP: 50.15
+
+--- Executing DINOv2 Giant reg4 336 (M=1000) ---
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS_100k: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+Initializing dataset object
+Extracting DINO features for query...
+Finished streaming query features to disk.
+Deleting dataset object.
+Initializing dataset object
+Extracting DINO features for db...
+Finished streaming db features to disk.
+Deleting dataset object.
+>> Local NVMe path not found for this model. Defaulting to network storage: ./datasets/ILIAS_100k/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_336.h5
+>> DB Size: 173.76 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (104715, 1536, 580)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 89.48 GB | VRAM Target: 29.37 GB
+>> Inverted Streaming Mode: NVMe Chunk = 4519, VRAM Batch = 250
+Retrieval results ILIAS_100k: mAP: 43.66
+
+--- Executing DINOv2 Giant reg4 336 (M=2000, Warm H5 Cache) ---
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS_100k: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+>> Local NVMe path not found for this model. Defaulting to network storage: ./datasets/ILIAS_100k/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_336.h5
+>> DB Size: 173.76 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (104715, 1536, 580)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-2000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 88.32 GB | VRAM Target: 29.33 GB
+>> Inverted Streaming Mode: NVMe Chunk = 4519, VRAM Batch = 250
+Retrieval results ILIAS_100k: mAP: 46.65
+
+--- Executing SuperGlobal CVNet_R101 (M=300) ---
+=> creating CVNet_Rerank model
+>> ILIAS_100k: Global Retrieval for scale 3 with CVNet-Global (CVPR2022_CVNet_R101)
+extract query features
+Initializing dataset object
+Deleting dataset object.
+extract database features
+Initializing dataset object
+Deleting dataset object.
+perform global feature reranking
+Retrieval results ILIAS_100k: mAP E: 11.81, M: 18.78, H: 11.81
+>> Archived visual grids & sets to: ./datasets/ILIAS_100k/output_single_models_K10
+
+============================================================
+EVALUATING CONFIG: 2way_Pareto_336_M1000_K10
+============================================================
+
+--- Mode: UNION (2way_Pareto_336_M1000_K10) ---
+>> Saved union text sets to: ./datasets/ILIAS_100k/output/union_raw_sets.txt
+
+Evaluating final results with mode: union
+[DINOv2_Giant_336_M1000]
+  Precision: 0.2359
+  Recall:    0.4960
+  F1 Score:  0.2969
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - union]
+  Precision: 0.2017
+  Recall:    0.6924
+  F1 Score:  0.2913
+  F3 Score:  0.5128
+
+--- Mode: INTERSECTION (2way_Pareto_336_M1000_K10) ---
+>> Saved intersection text sets to: ./datasets/ILIAS_100k/output/intersection_raw_sets.txt
+
+Evaluating final results with mode: intersection
+[DINOv2_Giant_336_M1000]
+  Precision: 0.2359
+  Recall:    0.4960
+  F1 Score:  0.2969
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - intersection]
+  Precision: 0.6403
+  Recall:    0.3760
+  F1 Score:  0.4349
+  F3 Score:  0.3826
+>> Archived visual grids & sets to: ./datasets/ILIAS_100k/output_2way_Pareto_336_M1000_K10
+
+============================================================
+EVALUATING CONFIG: 3way_Controlled_336_M1000_K10
+============================================================
+
+--- Mode: MAJORITY (3way_Controlled_336_M1000_K10) ---
+>> Saved majority text sets to: ./datasets/ILIAS_100k/output/majority_raw_sets.txt
+
+Evaluating final results with mode: majority
+[SuperGlobal_R101_M300]
+  Precision: 0.0824
+  Recall:    0.1638
+  F1 Score:  0.1029
+------------------------------
+[DINOv2_Giant_336_M1000]
+  Precision: 0.2359
+  Recall:    0.4960
+  F1 Score:  0.2969
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - majority]
+  Precision: 0.6245
+  Recall:    0.4213
+  F1 Score:  0.4633
+  F3 Score:  0.4244
+
+--- Mode: INTERSECTION (3way_Controlled_336_M1000_K10) ---
+>> Saved intersection text sets to: ./datasets/ILIAS_100k/output/intersection_raw_sets.txt
+
+Evaluating final results with mode: intersection
+[SuperGlobal_R101_M300]
+  Precision: 0.0824
+  Recall:    0.1638
+  F1 Score:  0.1029
+------------------------------
+[DINOv2_Giant_336_M1000]
+  Precision: 0.2359
+  Recall:    0.4960
+  F1 Score:  0.2969
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - intersection]
+  Precision: 0.3225
+  Recall:    0.1069
+  F1 Score:  0.1480
+  F3 Score:  0.1127
+
+--- Mode: UNION (3way_Controlled_336_M1000_K10) ---
+>> Saved union text sets to: ./datasets/ILIAS_100k/output/union_raw_sets.txt
+
+Evaluating final results with mode: union
+[SuperGlobal_R101_M300]
+  Precision: 0.0824
+  Recall:    0.1638
+  F1 Score:  0.1029
+------------------------------
+[DINOv2_Giant_336_M1000]
+  Precision: 0.2359
+  Recall:    0.4960
+  F1 Score:  0.2969
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - union]
+  Precision: 0.1369
+  Recall:    0.7038
+  F1 Score:  0.2163
+  F3 Score:  0.4536
+>> Archived visual grids & sets to: ./datasets/ILIAS_100k/output_3way_Controlled_336_M1000_K10
+
+============================================================
+EVALUATING CONFIG: 3way_BestK10_336_M2000_K10
+============================================================
+
+--- Mode: MAJORITY (3way_BestK10_336_M2000_K10) ---
+>> Saved majority text sets to: ./datasets/ILIAS_100k/output/majority_raw_sets.txt
+
+Evaluating final results with mode: majority
+[SuperGlobal_R101_M300]
+  Precision: 0.0824
+  Recall:    0.1638
+  F1 Score:  0.1029
+------------------------------
+[DINOv2_Giant_336_M2000]
+  Precision: 0.2525
+  Recall:    0.5293
+  F1 Score:  0.3179
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - majority]
+  Precision: 0.6417
+  Recall:    0.4421
+  F1 Score:  0.4831
+  F3 Score:  0.4450
+
+--- Mode: INTERSECTION (3way_BestK10_336_M2000_K10) ---
+>> Saved intersection text sets to: ./datasets/ILIAS_100k/output/intersection_raw_sets.txt
+
+Evaluating final results with mode: intersection
+[SuperGlobal_R101_M300]
+  Precision: 0.0824
+  Recall:    0.1638
+  F1 Score:  0.1029
+------------------------------
+[DINOv2_Giant_336_M2000]
+  Precision: 0.2525
+  Recall:    0.5293
+  F1 Score:  0.3179
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - intersection]
+  Precision: 0.3299
+  Recall:    0.1097
+  F1 Score:  0.1518
+  F3 Score:  0.1155
+
+--- Mode: UNION (3way_BestK10_336_M2000_K10) ---
+>> Saved union text sets to: ./datasets/ILIAS_100k/output/union_raw_sets.txt
+
+Evaluating final results with mode: union
+[SuperGlobal_R101_M300]
+  Precision: 0.0824
+  Recall:    0.1638
+  F1 Score:  0.1029
+------------------------------
+[DINOv2_Giant_336_M2000]
+  Precision: 0.2525
+  Recall:    0.5293
+  F1 Score:  0.3179
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - union]
+  Precision: 0.1396
+  Recall:    0.7136
+  F1 Score:  0.2203
+  F3 Score:  0.4608
+>> Archived visual grids & sets to: ./datasets/ILIAS_100k/output_3way_BestK10_336_M2000_K10
+
+============================================================
+EVALUATING CONFIG: 3way_336_M2000_K50
+============================================================
+
+--- Mode: MAJORITY (3way_336_M2000_K50) ---
+>> Saved majority text sets to: ./datasets/ILIAS_100k/output/majority_raw_sets.txt
+
+Evaluating final results with mode: majority
+[SuperGlobal_R101_M300]
+  Precision: 0.0273
+  Recall:    0.2650
+  F1 Score:  0.0478
+------------------------------
+[DINOv2_Giant_336_M2000]
+  Precision: 0.0624
+  Recall:    0.6408
+  F1 Score:  0.1103
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.0727
+  Recall:    0.7227
+  F1 Score:  0.1282
+------------------------------
+[Multiview Results - majority]
+  Precision: 0.3113
+  Recall:    0.5917
+  F1 Score:  0.3643
+  F3 Score:  0.5000
+
+--- Mode: INTERSECTION (3way_336_M2000_K50) ---
+>> Saved intersection text sets to: ./datasets/ILIAS_100k/output/intersection_raw_sets.txt
+
+Evaluating final results with mode: intersection
+[SuperGlobal_R101_M300]
+  Precision: 0.0273
+  Recall:    0.2650
+  F1 Score:  0.0478
+------------------------------
+[DINOv2_Giant_336_M2000]
+  Precision: 0.0624
+  Recall:    0.6408
+  F1 Score:  0.1103
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.0727
+  Recall:    0.7227
+  F1 Score:  0.1282
+------------------------------
+[Multiview Results - intersection]
+  Precision: 0.4134
+  Recall:    0.2026
+  F1 Score:  0.2458
+  F3 Score:  0.2079
+
+--- Mode: UNION (3way_336_M2000_K50) ---
+>> Saved union text sets to: ./datasets/ILIAS_100k/output/union_raw_sets.txt
+
+Evaluating final results with mode: union
+[SuperGlobal_R101_M300]
+  Precision: 0.0273
+  Recall:    0.2650
+  F1 Score:  0.0478
+------------------------------
+[DINOv2_Giant_336_M2000]
+  Precision: 0.0624
+  Recall:    0.6408
+  F1 Score:  0.1103
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.0727
+  Recall:    0.7227
+  F1 Score:  0.1282
+------------------------------
+[Multiview Results - union]
+  Precision: 0.0309
+  Recall:    0.8342
+  F1 Score:  0.0586
+  F3 Score:  0.2160
+>> Archived visual grids & sets to: ./datasets/ILIAS_100k/output_3way_336_M2000_K50
+
+--- Executing High-Res DINOv2 Giant reg4 518 (M=1000 Pareto Knee) ---
+Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
+>> ILIAS_100k: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
+Initializing dataset object
+Extracting DINO features for query...
+Finished streaming query features to disk.
+Deleting dataset object.
+Initializing dataset object
+Extracting DINO features for db...
