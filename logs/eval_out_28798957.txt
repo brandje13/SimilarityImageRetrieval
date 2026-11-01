@@ -12,3 +12,60 @@ Loading DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m) via timm...
 >> ILIAS_100k: Image Retrieval with DINOv2 (vit_giant_patch14_reg4_dinov2.lvd142m)
 Initializing dataset object
 Extracting DINO features for db...
+Finished streaming db features to disk.
+Deleting dataset object.
+>> Local NVMe path not found for this model. Defaulting to network storage: ./datasets/ILIAS_100k/DINO_data_vit_giant_patch14_reg4_dinov2.lvd142m_518.h5
+>> DB Size: 411.34 GB | Ultra-Fast RAM Mode: False
+>> Loading features and computing Global Descriptors...
+Database Shape: (104715, 1536, 1373)
+>> Stage 1: Global Descriptor Search...
+>> Stage 2: Reranking Top-1000 candidates with Patch Logic...
+>> Dynamic Allocations | CPU Target: 89.38 GB | VRAM Target: 28.51 GB
+>> Inverted Streaming Mode: NVMe Chunk = 1909, VRAM Batch = 250
+Retrieval results ILIAS_100k: mAP: 43.0
+>> Archived visual grids & sets to: ./datasets/ILIAS_100k/output_single_DINO518_K10
+
+============================================================
+EVALUATING CONFIG: 2way_HighRes_518_M1000_K10
+============================================================
+
+--- Mode: UNION (2way_HighRes_518_M1000_K10) ---
+>> Saved union text sets to: ./datasets/ILIAS_100k/output/union_raw_sets.txt
+
+Evaluating final results with mode: union
+[DINOv2_Giant_518_M1000]
+  Precision: 0.2330
+  Recall:    0.4910
+  F1 Score:  0.2934
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - union]
+  Precision: 0.2007
+  Recall:    0.6937
+  F1 Score:  0.2903
+  F3 Score:  0.5124
+
+--- Mode: INTERSECTION (2way_HighRes_518_M1000_K10) ---
+>> Saved intersection text sets to: ./datasets/ILIAS_100k/output/intersection_raw_sets.txt
+
+Evaluating final results with mode: intersection
+[DINOv2_Giant_518_M1000]
+  Precision: 0.2330
+  Recall:    0.4910
+  F1 Score:  0.2934
+------------------------------
+[SigLIP_SO400m_384]
+  Precision: 0.2799
+  Recall:    0.5723
+  F1 Score:  0.3514
+------------------------------
+[Multiview Results - intersection]
+  Precision: 0.6403
+  Recall:    0.3696
+  F1 Score:  0.4310
+  F3 Score:  0.3769
+>> Archived visual grids & sets to: ./datasets/ILIAS_100k/output_2way_HighRes_518_M1000_K10
